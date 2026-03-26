@@ -1,0 +1,46 @@
+{
+  "input_file": "/mnt/data/Documents/py/projects/juridic/16-FR-only.md",
+  "output_dir": "/mnt/data/Documents/py/projects/juridic/out/cleaning",
+  "stats": {
+    "total_lines": 8138,
+    "removed_page_markers": 169,
+    "removed_orphan_bis": 158,
+    "removed_editorial_lines": 7,
+    "removed_empty_after_cleanup": 0,
+    "blocks_before_dedup": 1397,
+    "blocks_after_dedup": 1383,
+    "duplicate_blocks_removed": 14,
+    "suspicious_blocks": 19,
+    "articles_extracted": 750,
+    "articles_tier_a": 713,
+    "articles_tier_b": 17,
+    "articles_tier_c": 20
+  },
+  "quality": {
+    "suspicious_threshold": 0.78,
+    "avg_block_score": 0.9499,
+    "min_block_score": 0.0,
+    "max_block_score": 1.0
+  },
+  "filtering": {
+    "tier_a_threshold": 0.88,
+    "tier_c_threshold": 0.7,
+    "max_low_block_ratio": 0.2,
+    "critical_repeat_threshold": 2,
+    "routing_policy": "use A first, fallback to B, use C only when explicitly requested"
+  },
+  "files": {
+    "cleaned_markdown": "/mnt/data/Documents/py/projects/juridic/out/cleaning/16-FR-only.cleaned.md",
+    "articles_jsonl": "/mnt/data/Documents/py/projects/juridic/out/cleaning/16-FR-only.articles.jsonl",
+    "articles_tier_a_jsonl": "/mnt/data/Documents/py/projects/juridic/out/cleaning/16-FR-only.articles.trusted_A.jsonl",
+    "articles_tier_b_jsonl": "/mnt/data/Documents/py/projects/juridic/out/cleaning/16-FR-only.articles.review_B.jsonl",
+    "articles_tier_c_jsonl": "/mnt/data/Documents/py/projects/juridic/out/cleaning/16-FR-only.articles.quarantine_C.jsonl",
+    "duplicates_jsonl": "/mnt/data/Documents/py/projects/juridic/out/cleaning/16-FR-only.duplicates.jsonl",
+    "suspicious_jsonl": "/mnt/data/Documents/py/projects/juridic/out/cleaning/16-FR-only.suspicious.jsonl"
+  },
+  "notes": [
+    "This pipeline removes obvious layout noise but preserves legal tokens (Art, bis/ter/quater, references).",
+    "Suspicious OCR fragments are not deleted automatically; they are exported for manual review.",
+    "Use tier A index first for retrieval, tier B as fallback, and tier C only with explicit low-confidence mode."
+  ]
+}
