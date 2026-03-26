@@ -89,13 +89,12 @@ python3 -m pip install -r requirements-rag.txt
 ### Configure Environment
 
 1. Copy `.env.example` to `.env`.
-2. Set your preferred LLM provider via `LEGAL_RAG_LLM_PROVIDER`: `groq` or `gemini`.
-3. Set your chosen valid LLM API key (`GROQ_API_KEY` or `GEMINI_API_KEY`).
+2. Choose the LLM provider in `.env` with `LEGAL_RAG_LLM_PROVIDER=groq` or `LEGAL_RAG_LLM_PROVIDER=gemini`.
+3. Set the matching API key in `.env` (`GROQ_API_KEY` for Groq, `GEMINI_API_KEY` for Gemini).
 4. Set `VOYAGE_API_KEY` for embeddings.
-5. Optionally override default retrieval capacities (`LEGAL_RAG_TOP_K_PER_TIER` to fetch more documents, etc).
 
 ### Build Vector Index (One-Time or On Corpus Update)
-
+no need cz i did it
 ```bash
 python3 scripts/build_voyage_faiss_index.py
 ```
@@ -114,29 +113,21 @@ Index output default:
 - `out/embeddings/voyage-4-large-d1024/tier_C.faiss`
 - `out/embeddings/voyage-4-large-d1024/tier_A.meta.json` (and B/C)
 
-### Run (Single Query)
+### Run the App
+
+Once `.env` is set, you can just run the app directly:
 
 ```bash
-# You can optionally specify --provider to switch LLMs on the fly
-python3 scripts/run_legal_rag.py \
-        --query "What does Art. 1 say?" \
-        --show-debug \
-        --provider gemini
-
-```bash
-python3 scripts/run_legal_rag.py --show-debug
+python3 scripts/run_legal_rag.py
 ```
 
-### Optional Low-Confidence Mode
-
-This mode allows tier C retrieval when needed.
+If you want a single query from the terminal:
 
 ```bash
-python3 scripts/run_legal_rag.py \
-	--query "Explain Art. 77" \
-	--allow-low-confidence \
-	--show-debug
+python3 scripts/run_legal_rag.py --query "What does Art. 1 say?" --show-debug
 ```
+
+You can also switch the provider from the command line with `--provider groq` or `--provider gemini` if you want to override the value in `.env`.
 
 ### Current Scope and Next Expansion
 
