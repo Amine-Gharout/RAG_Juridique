@@ -107,6 +107,7 @@ def _score_article(
     article: ArticleRecord,
     tier: str,
     article_reference: str | None,
+    vector_score: float,
 ) -> Candidate:
     effective_query = expand_query_for_legal_search(query)
     text = str(article.get("text", ""))
@@ -121,7 +122,15 @@ def _score_article(
     normalized_article_number = normalize_article_number(article_number)
     exact = 1.0 if article_reference and normalized_article_number == article_reference else 0.0
 
-    base = (0.55 * lexical) + (0.25 * semantic) + (0.20 * exact)
+    if article_reference:
+        # Article-targeted queries should remain precision-first.
+        base = (0.55 * exact) + (0.25 * lexical) + \
+            (0.10 * vector_score) + (0.10 * semantic)
+    else:
+        # Semantic legal questions benefit most from dense vector similarity.
+        base = (0.45 * vector_score) + (0.30 * lexical) + \
+            (0.20 * semantic) + (0.05 * exact)
+
     quality = float(article.get("ocr_quality_score", 0.0))
     quality_weight = 0.7 + (0.3 * max(0.0, min(1.0, quality)))
     fused = base * _tier_weight(tier) * quality_weight
@@ -133,6 +142,7 @@ def _score_article(
         "tier": tier,
         "lexical_score": round(lexical, 5),
         "semantic_score": round(semantic, 5),
+        "vector_score": round(vector_score, 5),
         "exact_match_score": round(exact, 5),
         "fused_score": round(fused, 5),
         "ocr_quality_score": round(quality, 5),
@@ -145,13 +155,18 @@ def retrieve_for_tier(
     tier: str,
     cfg: RetrievalConfig,
     article_reference: str | None,
+    vector_scores: dict[str, float] | None = None,
 ) -> list[Candidate]:
+    score_lookup = vector_scores or {}
+
     candidates = [
         _score_article(
             query=query,
             article=article,
             tier=tier,
             article_reference=article_reference,
+            vector_score=max(0.0, min(1.0, score_lookup.get(
+                str(article.get("id", "")), 0.0))),
         )
         for article in rows
     ]

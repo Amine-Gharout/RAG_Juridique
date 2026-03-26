@@ -6,6 +6,7 @@ import re
 
 from .config import Settings, load_settings
 from .corpus import load_tiered_corpus
+from .embedding_service import VoyageEmbeddingService
 from .llm import GroqLegalAssistant
 from .models import Candidate, LegalRAGState
 from .retrieval import (
@@ -14,6 +15,7 @@ from .retrieval import (
     normalize_article_number,
     retrieve_for_tier,
 )
+from .vector_store import LegalVectorStore
 
 
 _CITATION_RE = re.compile(
@@ -27,6 +29,9 @@ class Runtime:
     settings: Settings
     corpus_by_tier: dict[str, list[dict[str, object]]]
     assistant: GroqLegalAssistant
+    vector_store: LegalVectorStore | None
+    embedding_service: VoyageEmbeddingService | None
+    startup_warnings: list[str]
 
 
 def _extract_citations(answer: str) -> list[str]:
@@ -86,16 +91,34 @@ def _build_graph(runtime: Runtime):
         allow_low = bool(state.get("allow_low_confidence", False)
                          or query_metadata["wants_low_confidence"])
 
+        warnings: list[str] = list(runtime.startup_warnings)
+        query_vector = None
+        if runtime.vector_store and runtime.vector_store.is_ready and runtime.embedding_service:
+            try:
+                query_vector = runtime.embedding_service.embed_query(query)
+            except Exception as exc:
+                warnings.append(
+                    f"Vector retrieval is temporarily unavailable ({exc}). Falling back to lexical retrieval."
+                )
+
+        tier_a_vector_scores = {}
+        if query_vector is not None and runtime.vector_store:
+            tier_a_vector_scores = runtime.vector_store.search_scores(
+                tier="A",
+                query_vector=query_vector,
+                k=cfg.vector_candidates_per_tier,
+            )
+
         tier_a = retrieve_for_tier(
             query=query,
             rows=runtime.corpus_by_tier["A"],
             tier="A",
             cfg=cfg,
             article_reference=query_metadata["article_reference"],
+            vector_scores=tier_a_vector_scores,
         )
 
         selected: list[Candidate] = list(tier_a)
-        warnings: list[str] = []
 
         strongest_a = tier_a[0]["fused_score"] if tier_a else 0.0
         has_exact_in_a = any(item["exact_match_score"] > 0 for item in tier_a)
@@ -106,12 +129,21 @@ def _build_graph(runtime: Runtime):
 
         tier_b: list[Candidate] = []
         if needs_b:
+            tier_b_vector_scores = {}
+            if query_vector is not None and runtime.vector_store:
+                tier_b_vector_scores = runtime.vector_store.search_scores(
+                    tier="B",
+                    query_vector=query_vector,
+                    k=cfg.vector_candidates_per_tier,
+                )
+
             tier_b = retrieve_for_tier(
                 query=query,
                 rows=runtime.corpus_by_tier["B"],
                 tier="B",
                 cfg=cfg,
                 article_reference=query_metadata["article_reference"],
+                vector_scores=tier_b_vector_scores,
             )
             if tier_b:
                 selected.extend(tier_b)
@@ -124,12 +156,21 @@ def _build_graph(runtime: Runtime):
             not selected or strongest_after_ab < cfg.min_score_for_no_fallback
         )
         if should_try_c:
+            tier_c_vector_scores = {}
+            if query_vector is not None and runtime.vector_store:
+                tier_c_vector_scores = runtime.vector_store.search_scores(
+                    tier="C",
+                    query_vector=query_vector,
+                    k=cfg.vector_candidates_per_tier,
+                )
+
             tier_c = retrieve_for_tier(
                 query=query,
                 rows=runtime.corpus_by_tier["C"],
                 tier="C",
                 cfg=cfg,
                 article_reference=query_metadata["article_reference"],
+                vector_scores=tier_c_vector_scores,
             )
             if tier_c:
                 selected.extend(tier_c)
@@ -176,7 +217,7 @@ def _build_graph(runtime: Runtime):
                 candidates=selected,
                 conversation_history=conversation_history,
             )
-        except RuntimeError as exc:
+        except Exception as exc:
             draft = (
                 "The pipeline retrieved relevant legal context, but Groq generation is not available yet. "
                 f"Reason: {exc}"
@@ -276,10 +317,57 @@ def _build_graph(runtime: Runtime):
 class LegalRAGApp:
     def __init__(self, settings: Settings | None = None) -> None:
         resolved_settings = settings or load_settings()
+        corpus_by_tier = load_tiered_corpus(resolved_settings)
+
+        startup_warnings: list[str] = []
+        vector_store: LegalVectorStore | None = None
+        embedding_service: VoyageEmbeddingService | None = None
+
+        if resolved_settings.embedding.use_vector_search:
+            vector_store = LegalVectorStore(resolved_settings)
+            loaded = vector_store.load(corpus_by_tier)
+
+            if not loaded and resolved_settings.embedding.auto_build_index:
+                if resolved_settings.embedding.api_key:
+                    try:
+                        embedding_service = VoyageEmbeddingService(
+                            resolved_settings.embedding)
+                        vector_store.build_and_save(
+                            corpus_by_tier=corpus_by_tier,
+                            embedding_service=embedding_service,
+                            force=False,
+                        )
+                    except Exception as exc:
+                        startup_warnings.append(
+                            f"Vector index auto-build failed: {exc}. Falling back to lexical retrieval."
+                        )
+                else:
+                    startup_warnings.append(
+                        "Vector index is missing and VOYAGE_API_KEY is not configured. "
+                        "Run the build script after setting VOYAGE_API_KEY."
+                    )
+
+            if vector_store.is_ready and embedding_service is None:
+                if resolved_settings.embedding.api_key:
+                    embedding_service = VoyageEmbeddingService(
+                        resolved_settings.embedding)
+                else:
+                    startup_warnings.append(
+                        "Vector index loaded but VOYAGE_API_KEY is missing, so query embeddings are disabled."
+                    )
+
+            if not vector_store.is_ready and vector_store.load_error:
+                startup_warnings.append(
+                    f"Vector store not loaded: {vector_store.load_error}. Falling back to lexical retrieval."
+                )
+
         self.runtime = Runtime(
             settings=resolved_settings,
-            corpus_by_tier=load_tiered_corpus(resolved_settings),
+            corpus_by_tier=corpus_by_tier,
             assistant=GroqLegalAssistant(resolved_settings),
+            vector_store=vector_store,
+            embedding_service=embedding_service,
+            startup_warnings=startup_warnings,
         )
         self.graph = _build_graph(self.runtime)
         self.conversation_history: list[dict[str, str]] = []

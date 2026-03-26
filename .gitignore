@@ -136,6 +136,7 @@ celerybeat.pid
 
 # Environments
 .env
+!.env.example
 .envrc
 .venv
 env/
@@ -153,6 +154,9 @@ venv.bak/
 
 # mkdocs documentation
 /site
+
+# Local vector indices generated for RAG
+out/embeddings/
 
 # mypy
 .mypy_cache/
@@ -205,5 +209,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-.venv
-.env

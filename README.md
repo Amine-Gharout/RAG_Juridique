@@ -57,16 +57,28 @@ This repository now includes a first MVP of a confidence-aware legal chat RAG pi
 - `src/legal_rag/llm.py`: Groq chat completion integration.
 - `src/legal_rag/graph.py`: LangGraph workflow with confidence routing and citation verification.
 - `src/legal_rag/cli.py`: interactive or single-query chat CLI.
+- `src/legal_rag/embedding_service.py`: VoyageAI embedding client wrapper (query/document modes).
+- `src/legal_rag/vector_store.py`: FAISS index load/build/search + manifest validation.
 - `scripts/run_legal_rag.py`: launcher script from project root.
+- `scripts/build_voyage_faiss_index.py`: offline index build script for embeddings.
 
 ### Graph Behavior
 
 1. Parse user query and detect explicit article references.
-2. Retrieve from tier A first.
+2. Retrieve from tier A first using hybrid scoring (exact + lexical + vector, when available).
 3. Fallback to tier B when tier A confidence is insufficient.
 4. Use tier C only if low-confidence mode is enabled.
 5. Generate answer via Groq.
 6. Verify citations against retrieved context before returning response.
+
+### Vector Retrieval (VoyageAI + FAISS)
+
+This project supports persisted vector retrieval with `voyage-4-large` embeddings and FAISS.
+
+- Documents are embedded with `input_type=document`.
+- Queries are embedded with `input_type=query`.
+- Indices are stored on disk and loaded on next startup (no re-embedding each run).
+- If vector indices are missing or invalid, the system falls back to lexical retrieval.
 
 ### Install RAG Dependencies
 
@@ -78,7 +90,28 @@ python3 -m pip install -r requirements-rag.txt
 
 1. Copy `.env.example` to `.env`.
 2. Set `GROQ_API_KEY`.
-3. Optionally adjust `LEGAL_RAG_GROQ_MODEL` and temperature.
+3. Set `VOYAGE_API_KEY`.
+4. Optionally adjust model, dimension, and index path variables.
+
+### Build Vector Index (One-Time or On Corpus Update)
+
+```bash
+python3 scripts/build_voyage_faiss_index.py
+```
+
+Force rebuild:
+
+```bash
+python3 scripts/build_voyage_faiss_index.py --force
+```
+
+Index output default:
+
+- `out/embeddings/voyage-4-large-d1024/manifest.json`
+- `out/embeddings/voyage-4-large-d1024/tier_A.faiss`
+- `out/embeddings/voyage-4-large-d1024/tier_B.faiss`
+- `out/embeddings/voyage-4-large-d1024/tier_C.faiss`
+- `out/embeddings/voyage-4-large-d1024/tier_A.meta.json` (and B/C)
 
 ### Run (Single Query)
 
@@ -107,5 +140,5 @@ python3 scripts/run_legal_rag.py \
 
 ### Current Scope and Next Expansion
 
-- MVP focus: reliable retrieval pathing, grounded answers, verified citations.
+- MVP focus: reliable retrieval pathing, grounded answers, verified citations, and persistent vector search.
 - Next step: add evaluation suite (golden queries + citation accuracy metrics) and API serving layer.

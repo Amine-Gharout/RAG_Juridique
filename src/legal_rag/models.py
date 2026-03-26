@@ -22,6 +22,7 @@ class Candidate(TypedDict):
     tier: str
     lexical_score: float
     semantic_score: float
+    vector_score: float
     exact_match_score: float
     fused_score: float
     ocr_quality_score: float
