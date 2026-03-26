@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "art-1",
+    "article_number": "1",
+    "ocr_quality_score": 0.9588,
+    "text_hash": "5deaf5469923822439464ee989feead8b04bd9061c4075b4f517067ebb5741d5"
+  },
+  {
+    "id": "art-2",
+    "article_number": "2",
+    "ocr_quality_score": 1.0,
+    "text_hash": "3168d99adc460a969af5ce4eb63b820a7cb6f185a1e51cc1b96d437f828662d6"
+  },
+  {
+    "id": "art-3",
+    "article_number": "3",
+    "ocr_quality_score": 0.9569,
+    "text_hash": "9e3b21cf5b4f39c8b4c5f0bbb6d439feaa2b92db1783e0d62f3a5b1e0ea9615d"
+  },
+  {
+    "id": "art-6",
+    "article_number": "6",
+    "ocr_quality_score": 1.0,
+    "text_hash": "7d49d9cd3befdc645643d6fd893c44411707f8734617dbed55934b1dde6b9cfb"
+  },
+  {
+    "id": "art-7",
+    "article_number": "7",
+    "ocr_quality_score": 1.0,
+    "text_hash": "3b859e050e3e4928083a7d52878560f7c458131611c332fd1a821fb50ef1583b"
+  },
+  {
+    "id": "art-8",
+    "article_number": "8",
+    "ocr_quality_score": 0.9681,
+    "text_hash": "eac0eb14ed8c8cda0666122d695f0cb921c4859ea41ad77e475dd29a83b2e49f"
+  },
+  {
+    "id": "art-9",
+    "article_number": "9",
+    "ocr_quality_score": 0.946,
+    "text_hash": "5f58420dda0b7251596547ae43ae7d0babe4fd62d3ab31dbd9628ee07cdfe282"
+  },
+  {
+    "id": "art-10",
+    "article_number": "10",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "ec068a2028e417083127b0176f1774f2097ee1f50698901352634ff3c53ccc8c"
+  },
+  {
+    "id": "art-11",
+    "article_number": "11",
+    "ocr_quality_score": 0.9513,
+    "text_hash": "bd583a977330e566f89eca29e316eb2bb37eb2d38cf7d286e6e964df75f8e637"
+  },
+  {
+    "id": "art-13",
+    "article_number": "13",
+    "ocr_quality_score": 1.0,
+    "text_hash": "723c5cc00e8ed435f5260c94bdd71d30c39f69d5aa4d14723f835ef0542d3f7b"
+  },
+  {
+    "id": "art-14",
+    "article_number": "14",
+    "ocr_quality_score": 0.98,
+    "text_hash": "c55900649b66b3af7b1fcad4001672edaa8cfac0c5892d867150969701ce7a6a"
+  },
+  {
+    "id": "art-15",
+    "article_number": "15",
+    "ocr_quality_score": 0.9544,
+    "text_hash": "b98ef8d37ec487be5d1825a05a25bb62097a456e6dee375fd1a12c0e3ddd1834"
+  },
+  {
+    "id": "art-15-bis",
+    "article_number": "15 bis",
+    "ocr_quality_score": 0.965,
+    "text_hash": "a49becdcee84c6184eb46c3fd1e3c55be9284b4824f145c7da507c6f021c9b66"
+  },
+  {
+    "id": "art-16",
+    "article_number": "16",
+    "ocr_quality_score": 1.0,
+    "text_hash": "3126afbcd50669cb1bd8a96d0857c359999e4ae28176838748fb682db29c75e8"
+  },
+  {
+    "id": "art-17",
+    "article_number": "17",
+    "ocr_quality_score": 1.0,
+    "text_hash": "0e0c77fdb9f540a153378865691da731f00d4a7d3953ce40d4c8dafce7ca25fb"
+  },
+  {
+    "id": "art-18",
+    "article_number": "18",
+    "ocr_quality_score": 0.9782,
+    "text_hash": "ab3685925015037cb68c7f7bb9546df77f17479159fb6bd46ac43a9ec385a6b8"
+  },
+  {
+    "id": "art-18-ter",
+    "article_number": "18 ter",
+    "ocr_quality_score": 0.9883,
+    "text_hash": "007313331bcb3df89f921aef2d94707a2cbf9a40c175108b546ac05c74113070"
+  },
+  {
+    "id": "art-20",
+    "article_number": "20",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "fb5daf40290f37acfcd57c7b5681dd56418a0059f1ef52765acceafce02f6930"
+  },
+  {
+    "id": "art-21",
+    "article_number": "21",
+    "ocr_quality_score": 0.9928,
+    "text_hash": "d6cfbefc6f19262e837eea0212e7728a0a9f8ee93207b878ec502ba42027ae11"
+  },
+  {
+    "id": "art-22",
+    "article_number": "22",
+    "ocr_quality_score": 0.9704,
+    "text_hash": "fa99a81540849f7a175c22f8e7277c89769e7ac77e3ebc7d28d373a557fdec93"
+  },
+  {
+    "id": "art-24",
+    "article_number": "24",
+    "ocr_quality_score": 1.0,
+    "text_hash": "07687b383afe532406c0a3c9eae03362094aa6ef1bbb5ae9a72046708601a778"
+  },
+  {
+    "id": "art-25",
+    "article_number": "25",
+    "ocr_quality_score": 1.0,
+    "text_hash": "1830defdd1610b29a1c9087ed0b79b8ed26e9ac1c224df5680218e932775c27c"
+  },
+  {
+    "id": "art-26",
+    "article_number": "26",
+    "ocr_quality_score": 0.9682,
+    "text_hash": "133e55b7e6de6b242f399a5f59f2cfd3f648293f53d53c7070fd5fc6ab2ab41c"
+  },
+  {
+    "id": "art-27",
+    "article_number": "27",
+    "ocr_quality_score": 1.0,
+    "text_hash": "cd9bb52ebad2ee64eb567af385b2be5ec5d700984301ed56093a6004b888d039"
+  },
+  {
+    "id": "art-28",
+    "article_number": "28",
+    "ocr_quality_score": 0.9816,
+    "text_hash": "741ee1f20bdff3113197e6a0787f7e221cddd881a506786b0aa3f9188931d3ef"
+  },
+  {
+    "id": "art-29",
+    "article_number": "29",
+    "ocr_quality_score": 0.9731,
+    "text_hash": "22103932f45e00320ccb7f8e41d3b4cd94cbf12fe2ab50e89e6c945e814398d6"
+  },
+  {
+    "id": "art-30",
+    "article_number": "30",
+    "ocr_quality_score": 0.9901,
+    "text_hash": "b383bffb820f737bdf15dd6dcb78200e55ef7b5246ec35973c84ab8707fe97c4"
+  },
+  {
+    "id": "art-31",
+    "article_number": "31",
+    "ocr_quality_score": 1.0,
+    "text_hash": "039d6325b28ace92c94fd5d867c9e9b8d8d8ee97ef687df3d0dd92329c853835"
+  },
+  {
+    "id": "art-34",
+    "article_number": "34",
+    "ocr_quality_score": 0.9851,
+    "text_hash": "5f8cee1d0a2ca68b869fac7e6938fa07b0bad7ed9a0e6fc1f3d64f8386ed4499"
+  },
+  {
+    "id": "art-35",
+    "article_number": "35",
+    "ocr_quality_score": 1.0,
+    "text_hash": "7ce1e1a8a639cd47d9c32461f2cba0dea4a4a858986c7812d3c9f8c9ef96eeaf"
+  },
+  {
+    "id": "art-36",
+    "article_number": "36",
+    "ocr_quality_score": 0.9611,
+    "text_hash": "154f06fb59fd2f99f8127cc7556b0254023060e865d952e4ce5834332ab90e9d"
+  },
+  {
+    "id": "art-37",
+    "article_number": "37",
+    "ocr_quality_score": 0.9953,
+    "text_hash": "96da2dbf43441eae171865f9df91e429bd6a0821bf6a38e18da524c24ff831a1"
+  },
+  {
+    "id": "art-40",
+    "article_number": "40",
+    "ocr_quality_score": 0.99,
+    "text_hash": "6e640394cd618570bf83304f6bf7e6686181089eb0d9d26f2cf8c9fa7b780ed6"
+  },
+  {
+    "id": "art-41",
+    "article_number": "41",
+    "ocr_quality_score": 0.9512,
+    "text_hash": "8075bcbff444ef2b627540cf606fffc5cc58a9875c969b770a79fa343734efa6"
+  },
+  {
+    "id": "art-42",
+    "article_number": "42",
+    "ocr_quality_score": 0.9657,
+    "text_hash": "7216a7f2b9fdcab2a54c323a87600f9877ef77787cc89c209fe144725634026d"
+  },
+  {
+    "id": "art-45",
+    "article_number": "45",
+    "ocr_quality_score": 0.9481,
+    "text_hash": "df09aba665ca6f3b0d50da22f9a6e183661f6ad6f70c11fea01c132d126aa4a6"
+  },
+  {
+    "id": "art-46",
+    "article_number": "46",
+    "ocr_quality_score": 1.0,
+    "text_hash": "57c800f05da9c05a47f1f9922d24ac9e6e6822ca391d3c71f729a110607fe008"
+  },
+  {
+    "id": "art-47",
+    "article_number": "47",
+    "ocr_quality_score": 1.0,
+    "text_hash": "e2d38effe27196764f0cdf2db6c17d65211275a5cce127c237b8900315d52a86"
+  },
+  {
+    "id": "art-51",
+    "article_number": "51",
+    "ocr_quality_score": 0.9364,
+    "text_hash": "81f96531785881481204f46844139f2a86dbbdde0086b0f63327aa2bcf661eb2"
+  },
+  {
+    "id": "art-51-bis",
+    "article_number": "51 bis",
+    "ocr_quality_score": 0.9646,
+    "text_hash": "c18ab8eaa1e1371f663722e919223f9048bda431ebc1985a47542bbb30c7874a"
+  },
+  {
+    "id": "art-52",
+    "article_number": "52",
+    "ocr_quality_score": 0.955,
+    "text_hash": "ec22a6f85abd8aff293f85ccb89e9df427b7c6f5ece9ba98c3af256316ceab07"
+  },
+  {
+    "id": "art-55",
+    "article_number": "55",
+    "ocr_quality_score": 0.9602,
+    "text_hash": "a1294410b766596574bf0494cd859905c53a47b291fa0427b23eda068d1ce72d"
+  },
+  {
+    "id": "art-56",
+    "article_number": "56",
+    "ocr_quality_score": 0.957,
+    "text_hash": "a1f2b5158b98b9b415034cc335fae6a76645a61c23a687c064d23fce7abec7d3"
+  },
+  {
+    "id": "art-58",
+    "article_number": "58",
+    "ocr_quality_score": 0.9615,
+    "text_hash": "318d7521359b40b273878f88b10e8e17229caf189e5c124cc45385b503234b2a"
+  },
+  {
+    "id": "art-59",
+    "article_number": "59",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "a29125a0a63716c2a8c7f8757b606b620019aff9214eff4af500b0ee9954e228"
+  },
+  {
+    "id": "art-61",
+    "article_number": "61",
+    "ocr_quality_score": 0.9643,
+    "text_hash": "216ccef147b7cc3c695c678e892617b74f2a680ca1f58f24a74c78958b018064"
+  },
+  {
+    "id": "art-63",
+    "article_number": "63",
+    "ocr_quality_score": 0.9682,
+    "text_hash": "3faf502a2e4df5b608f2756e79d1b3ae2e95055cb6b0306bcb0a3e82ba2ecff1"
+  },
+  {
+    "id": "art-64",
+    "article_number": "64",
+    "ocr_quality_score": 0.91,
+    "text_hash": "75e0125466f09ba624341325ca3569e410d44e049033256d74fdb41aa704c2cd"
+  },
+  {
+    "id": "art-66",
+    "article_number": "66",
+    "ocr_quality_score": 0.9693,
+    "text_hash": "bbce3afe58afecf5cfbe227aa45eba7169ae6f5eb2225d73506e2355884d01de"
+  },
+  {
+    "id": "art-67",
+    "article_number": "67",
+    "ocr_quality_score": 0.945,
+    "text_hash": "f4ae57efa5f833dd55ee9aa14906adda7a97384313cfce68809137385b24c625"
+  },
+  {
+    "id": "art-69",
+    "article_number": "69",
+    "ocr_quality_score": 0.9327,
+    "text_hash": "9b0788c36afe8ac357fa0d13961be6a3f630a6b22733315712652cdcb0a0d9fa"
+  },
+  {
+    "id": "art-70",
+    "article_number": "70",
+    "ocr_quality_score": 0.958,
+    "text_hash": "28392a3eb2af153464b1e854417dbaf4189968fc831bf9e9587b333fb6880203"
+  },
+  {
+    "id": "art-71",
+    "article_number": "71",
+    "ocr_quality_score": 0.9112,
+    "text_hash": "c497aa5f06f8a98bc480a34bd9861a1e414493de4d4e454399ff981da2e0a123"
+  },
+  {
+    "id": "art-72",
+    "article_number": "72",
+    "ocr_quality_score": 0.9243,
+    "text_hash": "bf153e7e5a9dc6e6cf48badb62a951ddbdfed7455145d13453488e722fcdd8ac"
+  },
+  {
+    "id": "art-74",
+    "article_number": "74",
+    "ocr_quality_score": 0.9397,
+    "text_hash": "5ea856171fa12a529a55757b87e9022931919541c613cd06f7dbed448d427f6e"
+  },
+  {
+    "id": "art-75",
+    "article_number": "75",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "32640e31b3a83a7a6614b42dc77205e121f08efb56acb0c8dff42ba5407e6e8f"
+  },
+  {
+    "id": "art-76",
+    "article_number": "76",
+    "ocr_quality_score": 0.9731,
+    "text_hash": "22e2a1e4ee50b33583fd528b0920de6e827cdc06f2a9b517d3ac385bed1b5103"
+  },
+  {
+    "id": "art-79",
+    "article_number": "79",
+    "ocr_quality_score": 0.9369,
+    "text_hash": "37e0203c6895b5ea5637767a8504c1f66a255fb064b239f783b566301f024131"
+  },
+  {
+    "id": "art-80",
+    "article_number": "80",
+    "ocr_quality_score": 0.9848,
+    "text_hash": "2926746d9120475422ee964b348b70ce7ddab86ce463be81a3408c1a4c28e4fa"
+  },
+  {
+    "id": "art-81",
+    "article_number": "81",
+    "ocr_quality_score": 0.9713,
+    "text_hash": "199656ceb05b26baa44bf3521b984bb219a279e4e02bc9a79ac6017d407dbdec"
+  },
+  {
+    "id": "art-84",
+    "article_number": "84",
+    "ocr_quality_score": 0.98,
+    "text_hash": "a969280c632b94fae0e95891a1b7c759d6b7ed2d9d8d6bb22fb6ce96cec7e3d0"
+  },
+  {
+    "id": "art-85",
+    "article_number": "85",
+    "ocr_quality_score": 0.9478,
+    "text_hash": "0f73ff7dac8021eaf0f988d25fef67e8ac48f2065f0c35167c2f28ebba9829cf"
+  },
+  {
+    "id": "art-87",
+    "article_number": "87",
+    "ocr_quality_score": 0.9278,
+    "text_hash": "6046835d04064482733dd5a2baebfe83c2d949b98243138160b673979812030c"
+  },
+  {
+    "id": "art-87-bis",
+    "article_number": "87 bis",
+    "ocr_quality_score": 0.9827,
+    "text_hash": "b8bb56a89136980a739a4a5ae524f587ca5adafc26207c9a3dfa99abf0700db3"
+  },
+  {
+    "id": "art-87-bis-1",
+    "article_number": "87 bis 1",
+    "ocr_quality_score": 0.9446,
+    "text_hash": "66f44a0dbad7a5a29df41ecab2a5943ef97bba93e916c9d14876eaa57b0106e1"
+  },
+  {
+    "id": "art-87-bis-2",
+    "article_number": "87 bis 2",
+    "ocr_quality_score": 0.9481,
+    "text_hash": "9f7b20aacacaae5aa8f32c0a010d1f703d9210bb77c2d7eebc93670f835ca554"
+  },
+  {
+    "id": "art-87-bis-3",
+    "article_number": "87 bis 3",
+    "ocr_quality_score": 0.9437,
+    "text_hash": "7ab948fb3554c526ccd52a32f1de210f705a6fc9e4fa6989bd036c3caf7ff7ec"
+  },
+  {
+    "id": "art-87-bis-5",
+    "article_number": "87 bis 5",
+    "ocr_quality_score": 0.9205,
+    "text_hash": "023d6129983b46ed6e46ca28acfe95a78fe07459c8504504e57634810e88955a"
+  },
+  {
+    "id": "art-87-bis-6",
+    "article_number": "87 bis 6",
+    "ocr_quality_score": 0.9568,
+    "text_hash": "bef8a7a917d4218193afcfe6767ea1e7285ef580d15f32e808ecb2efae6dce13"
+  },
+  {
+    "id": "art-87-bis-7",
+    "article_number": "87 bis 7",
+    "ocr_quality_score": 0.9412,
+    "text_hash": "4fd1c42b01db5b885f5f1b45d6fed0e3a0a5f1f4bf59fc38d4f26fe1d2d1f347"
+  },
+  {
+    "id": "art-87-bis-9",
+    "article_number": "87 bis 9",
+    "ocr_quality_score": 0.9481,
+    "text_hash": "bcecc51caea09cf20fccf59b7d9586cd15c8b9983e8c1eeef659374b270c1233"
+  },
+  {
+    "id": "art-87-bis-10",
+    "article_number": "87 bis 10",
+    "ocr_quality_score": 0.9631,
+    "text_hash": "387b14fa66ab879861f58d7f2ddf84dd2e7c7d7644e14299dd3d6af38db698b0"
+  },
+  {
+    "id": "art-89",
+    "article_number": "89",
+    "ocr_quality_score": 0.9574,
+    "text_hash": "cc669ac231932f3354fb5c2b3fd16481a27e3a4364df14900a8673d245da28cc"
+  },
+  {
+    "id": "art-91",
+    "article_number": "91",
+    "ocr_quality_score": 0.9792,
+    "text_hash": "3d52ca07c5ab088ee92baf96f4c6b8d9fce3d469e3fc6aed53982298c545dd7c"
+  },
+  {
+    "id": "art-93",
+    "article_number": "93",
+    "ocr_quality_score": 0.9892,
+    "text_hash": "524cb427c806c2e5ea28ce4c6dc709a5380a8b29065c09b393402f958a538561"
+  },
+  {
+    "id": "art-95",
+    "article_number": "95",
+    "ocr_quality_score": 0.9506,
+    "text_hash": "7901cd5be6cd9e342fcd90058c32122836deebef35027185233c3148d8157f67"
+  },
+  {
+    "id": "art-99",
+    "article_number": "99",
+    "ocr_quality_score": 0.9659,
+    "text_hash": "466d3343f627fb51508f6a7243b40a9adf55d69e9570a722fb7a9e4bfe9b2845"
+  },
+  {
+    "id": "art-100",
+    "article_number": "100",
+    "ocr_quality_score": 0.9422,
+    "text_hash": "1e6fe212191fc63353c5207363c923beff09c03ddc552b15aee8ed6312137335"
+  },
+  {
+    "id": "art-102",
+    "article_number": "102",
+    "ocr_quality_score": 0.9774,
+    "text_hash": "476baf009d49aaa40bf79d96afd65edd13bfe14f309f60d25f1d2bdf2a58713b"
+  },
+  {
+    "id": "art-103",
+    "article_number": "103",
+    "ocr_quality_score": 0.9504,
+    "text_hash": "b48ed48cdd246eb1ac94802fdfee6e8e41070e936f13432b65165ba9b5c35bfc"
+  },
+  {
+    "id": "art-106",
+    "article_number": "106",
+    "ocr_quality_score": 0.9517,
+    "text_hash": "02842cae94210e09d513b87e05fb5467a6d4958d708032aeffa8e102f27df1c3"
+  },
+  {
+    "id": "art-107",
+    "article_number": "107",
+    "ocr_quality_score": 0.9205,
+    "text_hash": "94711edd902e14d409a8dfd486e702b766b3094a1c7f18b95f118eebb8c566ac"
+  },
+  {
+    "id": "art-108",
+    "article_number": "108",
+    "ocr_quality_score": 0.9741,
+    "text_hash": "e9462a23eaf5c023edb51780575743ee23303281a32b0fbddb54e98bc21e2856"
+  },
+  {
+    "id": "art-109",
+    "article_number": "109",
+    "ocr_quality_score": 0.9478,
+    "text_hash": "24d122cb14994498a8fbfb448c2ca308810068afdbd60340e368e84b94be6e60"
+  },
+  {
+    "id": "art-110-bis",
+    "article_number": "110 bis",
+    "ocr_quality_score": 0.9465,
+    "text_hash": "85958fd1f2fa48de03cbcc869cb5c3a175d2ffa8da8d8d584eb85207019b371b"
+  },
+  {
+    "id": "art-113",
+    "article_number": "113",
+    "ocr_quality_score": 0.9378,
+    "text_hash": "b8b22372e9258df49f134e556e5827aee18b510c517e2eb8f7d9d0200f847032"
+  },
+  {
+    "id": "art-114",
+    "article_number": "114",
+    "ocr_quality_score": 0.9725,
+    "text_hash": "d2cb502c4d4c734d3e6e438f022c53eb443b040d2517962a9b0b63ed0a592983"
+  },
+  {
+    "id": "art-117",
+    "article_number": "117",
+    "ocr_quality_score": 0.9507,
+    "text_hash": "8a5edcac46f848072318c83ea9bad3460812622b6d028bac14232523c566d9c5"
+  },
+  {
+    "id": "art-118",
+    "article_number": "118",
+    "ocr_quality_score": 0.9324,
+    "text_hash": "1c12b9af7a15c9fd9a4244e826e662f434b1acc7511ed1e6103f7e8d276b3ea7"
+  },
+  {
+    "id": "art-119-bis",
+    "article_number": "119 bis",
+    "ocr_quality_score": 0.9502,
+    "text_hash": "7e6839018e7e8b2ded9dc6205d3a235cc203034eadfe780f6feec2fb804b135e"
+  },
+  {
+    "id": "art-119-bis-1",
+    "article_number": "119 bis 1",
+    "ocr_quality_score": 0.9364,
+    "text_hash": "2aa962beed2a21b2aee13a4d018b3e838d0c424dc5fc60dec2ad5854e18dfd72"
+  },
+  {
+    "id": "art-120",
+    "article_number": "120",
+    "ocr_quality_score": 0.9813,
+    "text_hash": "dccbda03dc3321306ba8a1d4dca3e927a3de43de4e5d6e307af1d3a1e0d35e3c"
+  },
+  {
+    "id": "art-123",
+    "article_number": "123",
+    "ocr_quality_score": 0.9663,
+    "text_hash": "df396e35e423a1578f100671f040be46ee36d6202cc29f7e53f85b6971b51d65"
+  },
+  {
+    "id": "art-124",
+    "article_number": "124",
+    "ocr_quality_score": 0.9563,
+    "text_hash": "440e80056e87887ddc962565e985791e04883af6909253034ea4a4917dab3a63"
+  },
+  {
+    "id": "art-125",
+    "article_number": "125",
+    "ocr_quality_score": 0.9721,
+    "text_hash": "2789ea4a7a4c8e6ed57ab478375e59aed691c312a613f3546a557f866d7adf66"
+  },
+  {
+    "id": "art-126-bis",
+    "article_number": "126 bis",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "db7eee4842119d5ab3bea4bb646f0fab9db701ea762cc5b3adcddf940767e63c"
+  },
+  {
+    "id": "art-127",
+    "article_number": "127",
+    "ocr_quality_score": 0.9543,
+    "text_hash": "4389b4a7a29be3e93dcde11437e824d05656814685e0f50a636834225b84a34f"
+  },
+  {
+    "id": "art-128-bis",
+    "article_number": "128 bis",
+    "ocr_quality_score": 0.9554,
+    "text_hash": "0d2fd2bff4a34530131dedb255e55b802c1d951aad67d07e75715883dbee9ff2"
+  },
+  {
+    "id": "art-129",
+    "article_number": "129",
+    "ocr_quality_score": 0.9563,
+    "text_hash": "c57ae7846121e5025ae04bf8129e1d395b3bea04d20baa8ee545e9d7953f321f"
+  },
+  {
+    "id": "art-130",
+    "article_number": "130",
+    "ocr_quality_score": 0.9816,
+    "text_hash": "78916b69dae0469c2fec4748cf71500a426f9001a746c81aa29cbeb3ff3e8156"
+  },
+  {
+    "id": "art-131",
+    "article_number": "131",
+    "ocr_quality_score": 0.9806,
+    "text_hash": "1679ae4af593725dd6e57c4ce1702560f6a9781890e274d4dfee8879217be826"
+  },
+  {
+    "id": "art-132",
+    "article_number": "132",
+    "ocr_quality_score": 0.9674,
+    "text_hash": "6a54ca40d36dfe374d4476f6a01329158779e6edfaa05aafd1324e676683b0be"
+  },
+  {
+    "id": "art-135",
+    "article_number": "135",
+    "ocr_quality_score": 0.9641,
+    "text_hash": "265655f4b60b3f4694df4e0c735b5cbaca245b117b187db6e696f46593d7c33a"
+  },
+  {
+    "id": "art-136",
+    "article_number": "136",
+    "ocr_quality_score": 0.977,
+    "text_hash": "cd1ff31322261dfe4a6cd438a186a14e822a97b78c306f2d6908d912d459cbf8"
+  },
+  {
+    "id": "art-137",
+    "article_number": "137",
+    "ocr_quality_score": 0.9558,
+    "text_hash": "8808b0f63206ecff7e3befe32f5599f0756aac9481d830b499433aaec32e075e"
+  },
+  {
+    "id": "art-138",
+    "article_number": "138",
+    "ocr_quality_score": 0.9881,
+    "text_hash": "a21584e94df4c96a78455d613bb00db6739d008ae8a5bb60a3a80defd5017645"
+  },
+  {
+    "id": "art-138-bis",
+    "article_number": "138 bis",
+    "ocr_quality_score": 0.9559,
+    "text_hash": "b8de5235f2295237717cf903779558f53cd8eea0b5f80b8b0c66406c330b4eb8"
+  },
+  {
+    "id": "art-139",
+    "article_number": "139",
+    "ocr_quality_score": 0.9818,
+    "text_hash": "db01d0a5bcf11d57e7d5242deaf0b014d9ef4184688202ec17b0d03cf0ab90a5"
+  },
+  {
+    "id": "art-142",
+    "article_number": "142",
+    "ocr_quality_score": 0.9853,
+    "text_hash": "39ec6a1993b2c7dc7a9775881a3b59aa9c7a58bc0e1954c4870caf9228e67442"
+  },
+  {
+    "id": "art-143",
+    "article_number": "143",
+    "ocr_quality_score": 0.9577,
+    "text_hash": "af2d9d65248d78ce3b4b70d9b7aec2e92c4f23c099b1afd231c24df7e791b56f"
+  },
+  {
+    "id": "art-144",
+    "article_number": "144",
+    "ocr_quality_score": 0.9665,
+    "text_hash": "cae70f45572f6777e9fdda4bef483caec523174a531c8b4c8fb2f038ef6e7992"
+  },
+  {
+    "id": "art-144-bis-1",
+    "article_number": "144 bis 1",
+    "ocr_quality_score": 0.9622,
+    "text_hash": "29d35bd6b5ebc6c2d0d1c364c7f9a0824aa69edd45ef7191ab0c32e42897f351"
+  },
+  {
+    "id": "art-144-bis-2",
+    "article_number": "144 bis 2",
+    "ocr_quality_score": 0.9616,
+    "text_hash": "4a71b514dfd47655de2f91960744ca2df25ba08594115122735d9d7c6d1162b9"
+  },
+  {
+    "id": "art-147",
+    "article_number": "147",
+    "ocr_quality_score": 0.9717,
+    "text_hash": "4b3ae3cdac0068f32c35ab4822b68b33508bf5a47d1d9f0c4c6afec04dc01fb8"
+  },
+  {
+    "id": "art-148",
+    "article_number": "148",
+    "ocr_quality_score": 0.949,
+    "text_hash": "dd21b3be3f354a02f30d35bde0325c0f4870f92392ef337dd68c7a212d8b0553"
+  },
+  {
+    "id": "art-149",
+    "article_number": "149",
+    "ocr_quality_score": 0.9588,
+    "text_hash": "3ba45d0cb9dec3fdd6dc57aa94faa1a40d4fd1544159a0c69362aae8bfc73257"
+  },
+  {
+    "id": "art-150",
+    "article_number": "150",
+    "ocr_quality_score": 0.9533,
+    "text_hash": "d302f65ce1fb90cd94e0a46f8ce8c76ce2d763df001a6d5015cc6bd8ddda526d"
+  },
+  {
+    "id": "art-151",
+    "article_number": "151",
+    "ocr_quality_score": 0.9475,
+    "text_hash": "e4aba37d2290f4ebde7c9fd0da9a8c64b02259c9ad98d9bf08078d9453b09959"
+  },
+  {
+    "id": "art-152",
+    "article_number": "152",
+    "ocr_quality_score": 0.9481,
+    "text_hash": "9f531b1f04cbde66559f67a2c7826ee830f0de2c6c49ec0f5651c30a1ddbb697"
+  },
+  {
+    "id": "art-153",
+    "article_number": "153",
+    "ocr_quality_score": 0.9689,
+    "text_hash": "7856cf35b2d7bad7e74d7b8053c39d07bf5df7953ee6e2c4cb4577250118981e"
+  },
+  {
+    "id": "art-155",
+    "article_number": "155",
+    "ocr_quality_score": 0.9588,
+    "text_hash": "756f25a6ab15edf5a4cc31a6b809e66ab66b6d0897414aed9afbd93d14b2cc62"
+  },
+  {
+    "id": "art-156",
+    "article_number": "156",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "9ada6268d661d8a797fb7d8f283b98e301ead4cef87fa8cda1ac94b5a12dd6c9"
+  },
+  {
+    "id": "art-157",
+    "article_number": "157",
+    "ocr_quality_score": 0.9364,
+    "text_hash": "fa5d5c1fa790fed318aa14b1d0635c9437e6ef7ad142851ec23254cbf75ca899"
+  },
+  {
+    "id": "art-158",
+    "article_number": "158",
+    "ocr_quality_score": 0.9611,
+    "text_hash": "1b150c63d4f3f90d22430618b033cbb378c53820fdfb9b60c0c7f8d8431a84ff"
+  },
+  {
+    "id": "art-159",
+    "article_number": "159",
+    "ocr_quality_score": 0.9429,
+    "text_hash": "46e10feb90f709333c37e17222fe45fa1b7117d90a4868ccad7187a640705b6a"
+  },
+  {
+    "id": "art-160-ter",
+    "article_number": "160 ter",
+    "ocr_quality_score": 0.9364,
+    "text_hash": "68f05fcde885096f421a61e8eaccebbe8da8268e8cc690410010f30ba4ad5347"
+  },
+  {
+    "id": "art-160-quater",
+    "article_number": "160 quater",
+    "ocr_quality_score": 0.9657,
+    "text_hash": "fb29bdbfbfdd893c2e0b7ca67e58793a246c08134315b8a073748ec05d573ef4"
+  },
+  {
+    "id": "art-160",
+    "article_number": "160",
+    "ocr_quality_score": 0.9754,
+    "text_hash": "eb118dc6c6b3af092764b37c624743595cc9b87c8e83ae700f27a2b5d2c2f69d"
+  },
+  {
+    "id": "art-160",
+    "article_number": "160",
+    "ocr_quality_score": 0.9632,
+    "text_hash": "6d1b7624815073d1bc9cc6230d7f848764b2958f97a1ac4c7be9ccc15db39776"
+  },
+  {
+    "id": "art-161",
+    "article_number": "161",
+    "ocr_quality_score": 0.9556,
+    "text_hash": "8344a35e9a7f038ffcde30bd58682bc125bafc3a491b2d4601111dcb4168d824"
+  },
+  {
+    "id": "art-164",
+    "article_number": "164",
+    "ocr_quality_score": 0.9794,
+    "text_hash": "659ec8936822b8d7f723233594d5090f92e8cb0c9232a7b591c03164bbb54528"
+  },
+  {
+    "id": "art-165",
+    "article_number": "165",
+    "ocr_quality_score": 0.9628,
+    "text_hash": "ff0eb77bf5b47426eedda3c831add3ffa62835a5e5107492689ad88bc920b4eb"
+  },
+  {
+    "id": "art-167",
+    "article_number": "167",
+    "ocr_quality_score": 0.9774,
+    "text_hash": "9e2f409fc59aa1f601f6556a76986b77b76bd007324254f9860f944d46ef1e15"
+  },
+  {
+    "id": "art-168",
+    "article_number": "168",
+    "ocr_quality_score": 0.9823,
+    "text_hash": "918f29df98a35bc9051a99fa8f44974a23796d394e6d58d3e252a41609e08af8"
+  },
+  {
+    "id": "art-169",
+    "article_number": "169",
+    "ocr_quality_score": 0.9374,
+    "text_hash": "d5dec2cec8824479596d4371e7bde94e62d4fc1c9f0360a06c13d6594e0c0d93"
+  },
+  {
+    "id": "art-170",
+    "article_number": "170",
+    "ocr_quality_score": 0.9809,
+    "text_hash": "bbcd133b4a91f8f6dba32abd714be8b2088acd9ff9f245f448a4f02e198071ea"
+  },
+  {
+    "id": "art-173",
+    "article_number": "173",
+    "ocr_quality_score": 0.9317,
+    "text_hash": "8a4aad21403f242dc419e09caf68af622d67eb894fa0b228da01e6d653feeb85"
+  },
+  {
+    "id": "art-173-bis",
+    "article_number": "173 bis",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "dcb4203d3cd4106f6d2c3d7383b44574527c41e6a628722990d4a5e0ec056ce5"
+  },
+  {
+    "id": "art-174",
+    "article_number": "174",
+    "ocr_quality_score": 1.0,
+    "text_hash": "e76520c1399f70a0540b86a052417d67af5dd741e6066ff4b52ed49e0df66631"
+  },
+  {
+    "id": "art-176",
+    "article_number": "176",
+    "ocr_quality_score": 0.9892,
+    "text_hash": "9e3a231d90164a10d1f964296d8b370d1cf75de9bcf68d217f0f72faaaae8b21"
+  },
+  {
+    "id": "art-177",
+    "article_number": "177",
+    "ocr_quality_score": 0.9263,
+    "text_hash": "c82f9b168a0f8e3218fe613a9b686697ed1b69289a169b235979ff3c5b8e01d6"
+  },
+  {
+    "id": "art-177-bis",
+    "article_number": "177 bis",
+    "ocr_quality_score": 0.954,
+    "text_hash": "33fc3a434e50c0b8cb1ce1055af5c25c12fef8b2aaa42b8d3b4adf97c8e5ec2d"
+  },
+  {
+    "id": "art-177-ter",
+    "article_number": "177 ter",
+    "ocr_quality_score": 0.9395,
+    "text_hash": "a1cf3f94398ef14cbeb6fb021a68b21a92a6fb4e98597c3d4a806b351d90dcd3"
+  },
+  {
+    "id": "art-178",
+    "article_number": "178",
+    "ocr_quality_score": 0.9462,
+    "text_hash": "b2c5670b695cbd802dee1f423cba801f282e85f008ac855e4dd9a94970b640fb"
+  },
+  {
+    "id": "art-179",
+    "article_number": "179",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "be1c45ab226a47c11b9862fb4124796a4473018956546de4b5d16e0986456d05"
+  },
+  {
+    "id": "art-180",
+    "article_number": "180",
+    "ocr_quality_score": 0.9638,
+    "text_hash": "82a3fda4464dec62a6bdced7620f27de1a506cfe6b00567930858ffd89111888"
+  },
+  {
+    "id": "art-181",
+    "article_number": "181",
+    "ocr_quality_score": 0.9776,
+    "text_hash": "a16fc499231f0382141c3cd3a8cec1575fabf9185b9b90b344199286e9c98d01"
+  },
+  {
+    "id": "art-183",
+    "article_number": "183",
+    "ocr_quality_score": 0.9568,
+    "text_hash": "98deb0d66ee8c887ef2c55397f70be5772d6409ee1592c288cfa20a3691e755d"
+  },
+  {
+    "id": "art-186",
+    "article_number": "186",
+    "ocr_quality_score": 0.965,
+    "text_hash": "68f76deffb3c084cee667c01b8db48543d4e5a0c62361f78bb766c06ba761298"
+  },
+  {
+    "id": "art-187",
+    "article_number": "187",
+    "ocr_quality_score": 0.938,
+    "text_hash": "9cb374cb66532dd3fc34e4c8d0276181f6cc140af25e79be88121bc9a6780d6d"
+  },
+  {
+    "id": "art-187-bis",
+    "article_number": "187 bis",
+    "ocr_quality_score": 0.889,
+    "text_hash": "409c021b13b8a69bc751ea56d486b936f36fe84a7ddecb9831b8dc72b66ab1c7"
+  },
+  {
+    "id": "art-189",
+    "article_number": "189",
+    "ocr_quality_score": 0.9846,
+    "text_hash": "e40c2e49bb6f0a4332a45a9bb7587e84d5ace3e680f8675a98f68b37f77e87fe"
+  },
+  {
+    "id": "art-190",
+    "article_number": "190",
+    "ocr_quality_score": 0.9637,
+    "text_hash": "2232a74b9d531cd4486c9c22092aa0ae0da65d8e20022adbf617a8a70bf24bf3"
+  },
+  {
+    "id": "art-192",
+    "article_number": "192",
+    "ocr_quality_score": 0.8981,
+    "text_hash": "a138c7d5a3da0b35534cce897de2dc27c39ab6a19ab81f5f8d54c0a44b4f97c3"
+  },
+  {
+    "id": "art-193",
+    "article_number": "193",
+    "ocr_quality_score": 0.9282,
+    "text_hash": "f4d965b362938101bccc8c75f08ac71077db4820b0f80cfa0da1896e64d9c265"
+  },
+  {
+    "id": "art-194",
+    "article_number": "194",
+    "ocr_quality_score": 0.9725,
+    "text_hash": "2b12fc39144b220a2f58eb9baacf1db61c1e0dada85ab38e3a17c6e761f77cb1"
+  },
+  {
+    "id": "art-196",
+    "article_number": "196",
+    "ocr_quality_score": 0.9736,
+    "text_hash": "3159b3e7345569afe1b39b79ec74cefabe09b5d957cd8495a104a651724116b4"
+  },
+  {
+    "id": "art-196-bis",
+    "article_number": "196 bis",
+    "ocr_quality_score": 0.9641,
+    "text_hash": "d3cf715f92a4981ed23f96b0546178b3448e9db770597877b38ebe7d610ea645"
+  },
+  {
+    "id": "art-197",
+    "article_number": "197",
+    "ocr_quality_score": 0.9622,
+    "text_hash": "98561b59fec61200134af94b38cdebf5f0268745bcc7b1af2e94a2b380d12e21"
+  },
+  {
+    "id": "art-200",
+    "article_number": "200",
+    "ocr_quality_score": 0.9493,
+    "text_hash": "6fa7fc5eac0630b7769dd79a051b34b89e413567a10dcf4207d619c2cf7d5648"
+  },
+  {
+    "id": "art-201",
+    "article_number": "201",
+    "ocr_quality_score": 0.9896,
+    "text_hash": "6c241c39192c296ac02931648798eecc56daec93941d4421e14ce9e62f6d5153"
+  },
+  {
+    "id": "art-202",
+    "article_number": "202",
+    "ocr_quality_score": 0.9863,
+    "text_hash": "d0fac63dbc0e8fe3e0025ed1ce4d453251eae60576b38c202636a368e533ace6"
+  },
+  {
+    "id": "art-205",
+    "article_number": "205",
+    "ocr_quality_score": 0.96,
+    "text_hash": "ba4c746d717702533c66e76d5da77b6b84df10e4554643ab22e753adb605be33"
+  },
+  {
+    "id": "art-206",
+    "article_number": "206",
+    "ocr_quality_score": 0.9759,
+    "text_hash": "4432efce6f6e0c688fae1f8605ce2cbe67f1c432c52b655f9ed2e75c7222d668"
+  },
+  {
+    "id": "art-207",
+    "article_number": "207",
+    "ocr_quality_score": 0.965,
+    "text_hash": "1ddfb8e0748aeb391ef7c3717255a4a355f590be41e41d7cf819a4351b610b41"
+  },
+  {
+    "id": "art-208",
+    "article_number": "208",
+    "ocr_quality_score": 0.9806,
+    "text_hash": "1c08e7b1bc5c32ac89dc0222ad47ea6cbe295af0a40e0cf65e448a873990c051"
+  },
+  {
+    "id": "art-210",
+    "article_number": "210",
+    "ocr_quality_score": 0.9854,
+    "text_hash": "401bc98ff955ee7a75cbeef8efcfccd65ff4fb6519065a6acabb69bf332bdb4b"
+  },
+  {
+    "id": "art-212",
+    "article_number": "212",
+    "ocr_quality_score": 0.9555,
+    "text_hash": "6879e2c64f80615cfad33d5f623c4b6e49426637bd8a3d3671a7181ef33e170b"
+  },
+  {
+    "id": "art-213",
+    "article_number": "213",
+    "ocr_quality_score": 0.9417,
+    "text_hash": "308fc6b6a0b4f5003775a844f72fa60e7d2bff05ccd1986c4a542ce962791714"
+  },
+  {
+    "id": "art-214",
+    "article_number": "214",
+    "ocr_quality_score": 0.9815,
+    "text_hash": "2d740c8f3d803c7ef74585b5aa0e75e44bf03416bf0dd5e031abb84973ad1d49"
+  },
+  {
+    "id": "art-215",
+    "article_number": "215",
+    "ocr_quality_score": 0.983,
+    "text_hash": "356ffd77608a6c2cdcddeb3a7318adebc05f52f2d63ab5bc335c518bc5d8770f"
+  },
+  {
+    "id": "art-217",
+    "article_number": "217",
+    "ocr_quality_score": 0.9462,
+    "text_hash": "4965bbc23e045c4fab98eba732e715b00494bcd12e63455b6a0e1c9050f86c2f"
+  },
+  {
+    "id": "art-218",
+    "article_number": "218",
+    "ocr_quality_score": 0.9632,
+    "text_hash": "e870021cfbddb2e0f7673675c65db7b91855217320c8814d716f32a3e84529d8"
+  },
+  {
+    "id": "art-219",
+    "article_number": "219",
+    "ocr_quality_score": 0.9333,
+    "text_hash": "17e3f721b3508b0e3245aea02a99ae267ab554abca8be996939eabfc0452793e"
+  },
+  {
+    "id": "art-221",
+    "article_number": "221",
+    "ocr_quality_score": 0.9848,
+    "text_hash": "689985cc11b3ed7890cb61ae6b84de37fc94f4b54143db57d98e643087193102"
+  },
+  {
+    "id": "art-222",
+    "article_number": "222",
+    "ocr_quality_score": 0.9517,
+    "text_hash": "9a7f4cbb68466a0ebd7cb6b69a025d7ac1cafd37f7202cb47a317e5191e21385"
+  },
+  {
+    "id": "art-224",
+    "article_number": "224",
+    "ocr_quality_score": 0.9844,
+    "text_hash": "a1f1619bc9ae4f3469885cda9966e3fa2db42dc8953eedc6b496d1ebc7a1b0e2"
+  },
+  {
+    "id": "art-225",
+    "article_number": "225",
+    "ocr_quality_score": 0.9731,
+    "text_hash": "33352471912edd626eec8ff252af7b7b556df8fef376b5ad9df6e540d45132db"
+  },
+  {
+    "id": "art-227",
+    "article_number": "227",
+    "ocr_quality_score": 0.9477,
+    "text_hash": "6afe04fa1bce4288fa451870e67fbc5a096cbcb6aa387015e93617b1731f28af"
+  },
+  {
+    "id": "art-228",
+    "article_number": "228",
+    "ocr_quality_score": 0.9449,
+    "text_hash": "85b5f50c28e7aeca01bfa747f6f3ba7f577131e58bb59e869e7e4ac78bfbb6ce"
+  },
+  {
+    "id": "art-229",
+    "article_number": "229",
+    "ocr_quality_score": 0.9844,
+    "text_hash": "50f28a6126412de846ffb314596e4a040ab1cc5798b69cf9bcb1735bbafbcc05"
+  },
+  {
+    "id": "art-230",
+    "article_number": "230",
+    "ocr_quality_score": 1.0,
+    "text_hash": "a62ff632ad96ce2e84da87aeda3f9c8ad3f24159f6be098a7fac8e402aa99a4f"
+  },
+  {
+    "id": "art-231",
+    "article_number": "231",
+    "ocr_quality_score": 0.9563,
+    "text_hash": "791f45a379d5cdd34a46db249d3be1e1471d715bae204024beeee0e677e2c06b"
+  },
+  {
+    "id": "art-232",
+    "article_number": "232",
+    "ocr_quality_score": 0.9517,
+    "text_hash": "a7ed198d68ab1002a1cde8bcd143d24fe2a2f3b6d4e2150d1d2878bfcfe0984f"
+  },
+  {
+    "id": "art-234",
+    "article_number": "234",
+    "ocr_quality_score": 0.9594,
+    "text_hash": "d5fd58e6722c0e5413d6fa81ba19e2f4cd5c40ddd8f92f46b50ea0658e28035b"
+  },
+  {
+    "id": "art-235",
+    "article_number": "235",
+    "ocr_quality_score": 0.9478,
+    "text_hash": "1240f81f32c7e2ad39ceace697a9fee3b1f65dea25b11e13de5459e71bf0bc5d"
+  },
+  {
+    "id": "art-236",
+    "article_number": "236",
+    "ocr_quality_score": 0.9733,
+    "text_hash": "409f49a755bfd3885b6e9357f4d006f02334e1d3ae840fa549db78548feb9622"
+  },
+  {
+    "id": "art-238",
+    "article_number": "238",
+    "ocr_quality_score": 0.9696,
+    "text_hash": "6fef00c9bd76214e08ce9f7118da7fc72dd0a48896f8e76fd3b13493f4bc4414"
+  },
+  {
+    "id": "art-239",
+    "article_number": "239",
+    "ocr_quality_score": 1.0,
+    "text_hash": "2be14086790466b401b8ccb3264102ec01b5868347ae22baa28e9cb3562431fa"
+  },
+  {
+    "id": "art-240",
+    "article_number": "240",
+    "ocr_quality_score": 0.9382,
+    "text_hash": "51d0fbf6fa8b6587bf7b3e6bad51a1c79df26bd82a492208acd813eb2cd61580"
+  },
+  {
+    "id": "art-241",
+    "article_number": "241",
+    "ocr_quality_score": 0.9811,
+    "text_hash": "1204c7f983321a179d2845dd347fe7909004fb0bb9b260e3413fd747a5fe1837"
+  },
+  {
+    "id": "art-243",
+    "article_number": "243",
+    "ocr_quality_score": 0.9604,
+    "text_hash": "2c45084f8a0cb12e84b3728c844558cb965b969db2ff7e9b813622c410f66c8f"
+  },
+  {
+    "id": "art-244",
+    "article_number": "244",
+    "ocr_quality_score": 0.9682,
+    "text_hash": "d0aa92181c549182359431eedbde3f4063d9a03593ed3b9f5cd1748d07aa1590"
+  },
+  {
+    "id": "art-245",
+    "article_number": "245",
+    "ocr_quality_score": 0.9548,
+    "text_hash": "260e92b12f76c6afa3ebba85dba599e3741deab9281845dfdef51985b0d8ce60"
+  },
+  {
+    "id": "art-246",
+    "article_number": "246",
+    "ocr_quality_score": 0.9495,
+    "text_hash": "6760b5dd9fbb4f0ab977a85590ed7175636bcad99eadbcf3c7050e92470dabeb"
+  },
+  {
+    "id": "art-249",
+    "article_number": "249",
+    "ocr_quality_score": 0.9583,
+    "text_hash": "4f2484179ef03061bd68bcf42bf5d599fa7254461f2488b002bdbd87f00f0f48"
+  },
+  {
+    "id": "art-250",
+    "article_number": "250",
+    "ocr_quality_score": 0.9641,
+    "text_hash": "8b8aebe5d96faa8d9f30ef0e10888c81ad8b735ef01b844ac7b86e3659ee209e"
+  },
+  {
+    "id": "art-251",
+    "article_number": "251",
+    "ocr_quality_score": 0.9,
+    "text_hash": "b634bb61406b3ef535f97c5bce29d08e2a966d36eed4b9e7a6fd490866c8c961"
+  },
+  {
+    "id": "art-252",
+    "article_number": "252",
+    "ocr_quality_score": 0.9786,
+    "text_hash": "6c8250925df9dc8a11673d17f2f79990da902f72f0943f5befe09234ec2c7e94"
+  },
+  {
+    "id": "art-254",
+    "article_number": "254",
+    "ocr_quality_score": 1.0,
+    "text_hash": "5c7aaae6df4ebfb1c6753de6d537d0b95a27305c00254f241812aa26c3ad7a5d"
+  },
+  {
+    "id": "art-255",
+    "article_number": "255",
+    "ocr_quality_score": 1.0,
+    "text_hash": "d2d1b5f5af9ece08c963ae1cc3e71e00cdfb5adcb7d80f1fce3b298ca62f9622"
+  },
+  {
+    "id": "art-256",
+    "article_number": "256",
+    "ocr_quality_score": 0.9821,
+    "text_hash": "818818f8852d233adc4208edb2971254db047d6f34074ef808811d51216e8c5c"
+  },
+  {
+    "id": "art-257",
+    "article_number": "257",
+    "ocr_quality_score": 0.9794,
+    "text_hash": "70a71dbd84799a272649221b258c5d7f4d6c0b0055ac6116eefb0f89f3dace77"
+  },
+  {
+    "id": "art-261",
+    "article_number": "261",
+    "ocr_quality_score": 0.9611,
+    "text_hash": "59f4967400d366e5a4f71b82f2bd70e9c85aa27c5334315dcf8b7839eb803779"
+  },
+  {
+    "id": "art-262",
+    "article_number": "262",
+    "ocr_quality_score": 1.0,
+    "text_hash": "7a5cd1912e03b890ca2b466236d1ae30503dc29024aa1ea3b0b2f0efa0b2513d"
+  },
+  {
+    "id": "art-263",
+    "article_number": "263",
+    "ocr_quality_score": 0.9792,
+    "text_hash": "273c491b674422ef0fe5f74b176424cf958f3da463c8e6089e5ccc13d08f1420"
+  },
+  {
+    "id": "art-263-bis",
+    "article_number": "263 bis",
+    "ocr_quality_score": 0.9774,
+    "text_hash": "7935e3418e1442d584fe0224f937970342988499a18fdefe19d8ce562956bb7d"
+  },
+  {
+    "id": "art-263-quater",
+    "article_number": "263 quater",
+    "ocr_quality_score": 0.9357,
+    "text_hash": "02660eb7bd8d8e7aa8dc34e0c196e271f7ab2913500520847f51e35094f6d105"
+  },
+  {
+    "id": "art-264",
+    "article_number": "264",
+    "ocr_quality_score": 0.9646,
+    "text_hash": "769bd198e74cbf6b4ea6dbe70b00ac17f6a01b28f8bbc3418bee35b135a4d6c7"
+  },
+  {
+    "id": "art-266",
+    "article_number": "266",
+    "ocr_quality_score": 0.9683,
+    "text_hash": "78998310b24ce3121c11cd17a04f8ef425ae6d3823a7dc2d007233671c08d638"
+  },
+  {
+    "id": "art-268",
+    "article_number": "268",
+    "ocr_quality_score": 0.9608,
+    "text_hash": "106e14f04f83183cae867dd186a93e55f5a59aea11a2b0b61fed033adfe2b683"
+  },
+  {
+    "id": "art-269",
+    "article_number": "269",
+    "ocr_quality_score": 0.9644,
+    "text_hash": "229669f6e4d74c415a6a1c4ab7245e7d6e8fb0a8df2fa84e243439fa8b5304d5"
+  },
+  {
+    "id": "art-271",
+    "article_number": "271",
+    "ocr_quality_score": 0.972,
+    "text_hash": "b3b990083d6056209bb7d4f6266d3191dc87146cc19beda505a0b2919d92db1f"
+  },
+  {
+    "id": "art-272",
+    "article_number": "272",
+    "ocr_quality_score": 0.9138,
+    "text_hash": "68142c2e5c8ae344f6d33e0e178c7e2277dfc918a3847960fa4ed3c3dbea1939"
+  },
+  {
+    "id": "art-274",
+    "article_number": "274",
+    "ocr_quality_score": 1.0,
+    "text_hash": "c3b9f45d099de050ea10a4c1d97e139254eaa7fef644196d33d1e09d48a8dad7"
+  },
+  {
+    "id": "art-275",
+    "article_number": "275",
+    "ocr_quality_score": 0.9436,
+    "text_hash": "8ab59213f2ad2bc9967962de322be53cb15524add4ef2bc293bf5517e7502551"
+  },
+  {
+    "id": "art-276",
+    "article_number": "276",
+    "ocr_quality_score": 0.9361,
+    "text_hash": "2929123597e04dcaf9e65cb99a905ac9df6f6b4d13a733f05ff3915350513f6b"
+  },
+  {
+    "id": "art-277",
+    "article_number": "277",
+    "ocr_quality_score": 1.0,
+    "text_hash": "ab4d6a66ce3e9d8e731bd65486bbe1b3fb10b21e762fe5abe2d228b302b5cbf1"
+  },
+  {
+    "id": "art-278",
+    "article_number": "278",
+    "ocr_quality_score": 1.0,
+    "text_hash": "2a58e10fe097f051ce84504427cb34713cc63631c2764c71c4bb36a174c4489f"
+  },
+  {
+    "id": "art-279",
+    "article_number": "279",
+    "ocr_quality_score": 0.98,
+    "text_hash": "73e99ffa4cc9134dabf08fa40fb943adca3a715cafcdc968d9d2eb5880b16791"
+  },
+  {
+    "id": "art-280",
+    "article_number": "280",
+    "ocr_quality_score": 0.9333,
+    "text_hash": "999e782b3e2d8780a2b3f899bb119ce851ee4aabc438cff3f7e192f46d1359d6"
+  },
+  {
+    "id": "art-281",
+    "article_number": "281",
+    "ocr_quality_score": 0.9803,
+    "text_hash": "d96a2d65883b0b4d5a979889eb6d7e8d0521da6d5b447d86b1d9ab311ae623f5"
+  },
+  {
+    "id": "art-284",
+    "article_number": "284",
+    "ocr_quality_score": 0.9731,
+    "text_hash": "329e9ffb037a09a25eafda318f273aae571f2c27cf9b02c579ed0e9ae7d4feac"
+  },
+  {
+    "id": "art-285",
+    "article_number": "285",
+    "ocr_quality_score": 0.9582,
+    "text_hash": "45655550dbe8e13961187cafd2d76df535d4472736aeee28762141c698860c68"
+  },
+  {
+    "id": "art-288",
+    "article_number": "288",
+    "ocr_quality_score": 0.9556,
+    "text_hash": "2f58732d40c63e02b83f0edf8314ed3125c528a28d15e74f3ab6889f64d8d07c"
+  },
+  {
+    "id": "art-289",
+    "article_number": "289",
+    "ocr_quality_score": 0.9767,
+    "text_hash": "f63cb3cf7cb774998995a0f1a717b5638986a84aabbd84a520df6fcbbdcd6687"
+  },
+  {
+    "id": "art-290",
+    "article_number": "290",
+    "ocr_quality_score": 0.9479,
+    "text_hash": "69822b73091eb350d76a8f794fd045e59a4b89a7e910263f944a1de995690e86"
+  },
+  {
+    "id": "art-292",
+    "article_number": "292",
+    "ocr_quality_score": 0.9611,
+    "text_hash": "3bcb164f1f7fede6534e0995422d10e30227ebd49b3b9e478bb1659776990f8e"
+  },
+  {
+    "id": "art-293",
+    "article_number": "293",
+    "ocr_quality_score": 0.9364,
+    "text_hash": "502c9076f9e3b7c88c9b5d9b8aecd67f568cfb4f9dd096a55422c232f6f22c45"
+  },
+  {
+    "id": "art-293-bis",
+    "article_number": "293 bis",
+    "ocr_quality_score": 0.9314,
+    "text_hash": "ddb075969453082a4c71394032759f8d8720b909d8f702c5343509c3ccedc1d7"
+  },
+  {
+    "id": "art-295",
+    "article_number": "295",
+    "ocr_quality_score": 0.9064,
+    "text_hash": "7f34e715370256ecd905087861fc9c998b982620e7352954284a42b80cee027d"
+  },
+  {
+    "id": "art-296",
+    "article_number": "296",
+    "ocr_quality_score": 0.9426,
+    "text_hash": "b95bd4d34e3c2f5fa951247e58da60bddf9fc5e17d50ef4f739f4514f8e75d47"
+  },
+  {
+    "id": "art-298-bis",
+    "article_number": "298 bis",
+    "ocr_quality_score": 0.934,
+    "text_hash": "03bd7442246f2e1dfbcb370bef17d8bbd572ff48906fac8124bcdce873b8cba7"
+  },
+  {
+    "id": "art-299",
+    "article_number": "299",
+    "ocr_quality_score": 0.9447,
+    "text_hash": "de8e11462c779f1bc8ae27b068d41be3fe32cba044145aabd6a873901ebcedf3"
+  },
+  {
+    "id": "art-300",
+    "article_number": "300",
+    "ocr_quality_score": 0.9733,
+    "text_hash": "ea83b4a6942f0dec976d479dbc00c1925974388e09a79377d670bdaf7f3d8b8c"
+  },
+  {
+    "id": "art-301",
+    "article_number": "301",
+    "ocr_quality_score": 0.965,
+    "text_hash": "6e1d18cd5444b232db1942d46c5a0e13911dad8c3704c4db0712ffafc9432170"
+  },
+  {
+    "id": "art-302",
+    "article_number": "302",
+    "ocr_quality_score": 0.9082,
+    "text_hash": "efb124b71aa7c42a596812c250ed47736cbc78c56243cdfd1fc818770b005ec2"
+  },
+  {
+    "id": "art-303",
+    "article_number": "303",
+    "ocr_quality_score": 0.9517,
+    "text_hash": "bffea811580b401f0e68900b5052bdf3d3f538a76ce269ea69a5a00c0a6e8a74"
+  },
+  {
+    "id": "art-304",
+    "article_number": "304",
+    "ocr_quality_score": 0.9455,
+    "text_hash": "2587c08f76410e682d9e274ee6ac3b48c038303a12545fd8c7c1f2123649d2e0"
+  },
+  {
+    "id": "art-305",
+    "article_number": "305",
+    "ocr_quality_score": 0.9741,
+    "text_hash": "5b8ebc46125ed7c32701bf52f96ca8f113d4ecaefbf8a43701b946e095b2bf82"
+  },
+  {
+    "id": "art-307",
+    "article_number": "307",
+    "ocr_quality_score": 0.958,
+    "text_hash": "da2125fcd12693dabb22dbd3681bb87db19554317cdd0f2485ec200cde97f7cd"
+  },
+  {
+    "id": "art-308",
+    "article_number": "308",
+    "ocr_quality_score": 0.9811,
+    "text_hash": "fbfb3b20ea6e621b33c51df1c41bb17487e4120c2b6fbc905cc6e06e6a5f4d84"
+  },
+  {
+    "id": "art-309",
+    "article_number": "309",
+    "ocr_quality_score": 0.8957,
+    "text_hash": "040c13d6b7a6b3f23ce5dc41d7269cdd1a5d837e99ff8b2ba6684d242f60c3b0"
+  },
+  {
+    "id": "art-312",
+    "article_number": "312",
+    "ocr_quality_score": 0.9057,
+    "text_hash": "6ceccf762f66fa5ca141b23b2e955e605b1387489577702b0a9c794a2e086103"
+  },
+  {
+    "id": "art-313",
+    "article_number": "313",
+    "ocr_quality_score": 0.9488,
+    "text_hash": "400827b3afb94db63ced834f816288b428da729b1d86689569f15f2c035c8f85"
+  },
+  {
+    "id": "art-314",
+    "article_number": "314",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "c0eb3fd78bbc1fc66745441fd2325f7caf19b5a4fe138d500b4480db2d66c4d7"
+  },
+  {
+    "id": "art-315",
+    "article_number": "315",
+    "ocr_quality_score": 0.9719,
+    "text_hash": "f2ea643d11bf5b5d72e772a14f8e5948c1fd13e5364e8005819daa9369abd577"
+  },
+  {
+    "id": "art-318",
+    "article_number": "318",
+    "ocr_quality_score": 0.944,
+    "text_hash": "c381f6a0a930be331e93ff6b132b2993b2f4aa4b018fd90a674904466bd2171c"
+  },
+  {
+    "id": "art-319",
+    "article_number": "319",
+    "ocr_quality_score": 0.9696,
+    "text_hash": "51a506c58344125d7817049248bdc9d5280b5c929b913595b66cbe6ff1f094e7"
+  },
+  {
+    "id": "art-320",
+    "article_number": "320",
+    "ocr_quality_score": 0.9176,
+    "text_hash": "ad744f954f9fcf2cdf31a102073dbc570cc94ee7f4eb525b70a8f8e4872def45"
+  },
+  {
+    "id": "art-326",
+    "article_number": "326",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "ba7089fabdc4d9be825d406651a0b7c8153eaf2bf34794866886806740d27a5b"
+  },
+  {
+    "id": "art-329",
+    "article_number": "329",
+    "ocr_quality_score": 0.9462,
+    "text_hash": "1affde121c72a43df26605da4d67675c0556aa7e5d20a3804c2c49b781f28996"
+  },
+  {
+    "id": "art-330",
+    "article_number": "330",
+    "ocr_quality_score": 0.946,
+    "text_hash": "49598ce37d1afc4b98f581530845cbfe7ae4130372f0c91f434d0800115a63ce"
+  },
+  {
+    "id": "art-331",
+    "article_number": "331",
+    "ocr_quality_score": 0.9704,
+    "text_hash": "fe858ded8ce32c7e1dc8ea64123413133f0f15b60eb6619bba1bc0c5423c6c15"
+  },
+  {
+    "id": "art-333-bis",
+    "article_number": "333 bis",
+    "ocr_quality_score": 0.9547,
+    "text_hash": "941180583b6b4cac4883b731841e1f263ea25da8176873b47d4d7c6d9783d17c"
+  },
+  {
+    "id": "art-334",
+    "article_number": "334",
+    "ocr_quality_score": 0.9432,
+    "text_hash": "ede538f6418f66c09a924aa4dc512b4a9a405082fce49ef1b18506be176be7ca"
+  },
+  {
+    "id": "art-335",
+    "article_number": "335",
+    "ocr_quality_score": 0.9234,
+    "text_hash": "a5697070209571e5cfa4bdcefa6ecd08a6a11f5e7f990e0e4b5fd25b3d5b5eb8"
+  },
+  {
+    "id": "art-336",
+    "article_number": "336",
+    "ocr_quality_score": 0.9509,
+    "text_hash": "ec1b5962579a914d0ab8288d8517590d4494c4e02035d44d856923cc748c2efe"
+  },
+  {
+    "id": "art-337-bis",
+    "article_number": "337 bis",
+    "ocr_quality_score": 0.9854,
+    "text_hash": "e8f5bd18aa33b646b946ea77117282250723f760edc2ea57acf1cd441a588a16"
+  },
+  {
+    "id": "art-339",
+    "article_number": "339",
+    "ocr_quality_score": 0.9741,
+    "text_hash": "7cb472d9d94b1d4a7533b2647b702beb72e1f085d06b819bdfee170d612af84b"
+  },
+  {
+    "id": "art-340",
+    "article_number": "340",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "868ee03bf0d1ad7e3b6ff3e3f6cf63cc5820f6a2166bcf1166a0c71650886818"
+  },
+  {
+    "id": "art-341",
+    "article_number": "341",
+    "ocr_quality_score": 1.0,
+    "text_hash": "ab3f88db98a30a37ee61d50732b1e17e22ddd869079d357b5e5c04ebf1b61681"
+  },
+  {
+    "id": "art-343",
+    "article_number": "343",
+    "ocr_quality_score": 0.9414,
+    "text_hash": "ef5291c2dc13f6e6e06d65408954729d411f3b9b660c8abac0bd2f10f18ea87a"
+  },
+  {
+    "id": "art-347",
+    "article_number": "347",
+    "ocr_quality_score": 0.9525,
+    "text_hash": "c635728afccaeb52ffeeb6675c6cf4c7c60d536e8b369ca7ac81838bcde39219"
+  },
+  {
+    "id": "art-348",
+    "article_number": "348",
+    "ocr_quality_score": 0.965,
+    "text_hash": "3d685be53b8a72d76254c77bd02cc890da8e6fca908dadcad2cb43e1d980b35f"
+  },
+  {
+    "id": "art-350",
+    "article_number": "350",
+    "ocr_quality_score": 0.9919,
+    "text_hash": "6930485eab4118a4f352430cfaf0683ab7b2fa8774af5e92efc014fd58722c65"
+  },
+  {
+    "id": "art-351",
+    "article_number": "351",
+    "ocr_quality_score": 0.9539,
+    "text_hash": "bdd43309894498aa8310c03de157f2f4686371ed6b4486935d456f6a97e318c5"
+  },
+  {
+    "id": "art-353",
+    "article_number": "353",
+    "ocr_quality_score": 0.9553,
+    "text_hash": "adf9900e38f351d551a25ac1dba4f541900ba69a8f42c283f36588ce4ef1a41a"
+  },
+  {
+    "id": "art-355",
+    "article_number": "355",
+    "ocr_quality_score": 0.975,
+    "text_hash": "447e802bcb267521a2327441cae002b5fc94b2d17a79ba3a673527f3ade0e5f3"
+  },
+  {
+    "id": "art-356",
+    "article_number": "356",
+    "ocr_quality_score": 0.9879,
+    "text_hash": "08cadd058497357ad504eb5b74540eb6c9b5bfa85ba4a4011a1f90fbc26b9807"
+  },
+  {
+    "id": "art-357",
+    "article_number": "357",
+    "ocr_quality_score": 1.0,
+    "text_hash": "daf6a86bfc4bb17072b0e289cae98432f7ceee648cd88d58499ba39af3716f09"
+  },
+  {
+    "id": "art-359",
+    "article_number": "359",
+    "ocr_quality_score": 0.9479,
+    "text_hash": "f42df5af7cf9f35ad666ac57550819d3574878d00b33ee6cddfe35e124f742fd"
+  },
+  {
+    "id": "art-360",
+    "article_number": "360",
+    "ocr_quality_score": 0.9702,
+    "text_hash": "a83233466b186d521afa45f1fa9508d498861643e4b052d630b70af901807c2d"
+  },
+  {
+    "id": "art-361",
+    "article_number": "361",
+    "ocr_quality_score": 0.9636,
+    "text_hash": "3723ee773b7c951cfcd5d6fe37899b1099eef2d1c4bb36ae726064514dcd1af8"
+  },
+  {
+    "id": "art-362",
+    "article_number": "362",
+    "ocr_quality_score": 0.9543,
+    "text_hash": "be0f10c497e55f34c5677456dca0d21f7944917cea3e32f09a0c673d2bec7b0a"
+  },
+  {
+    "id": "art-363",
+    "article_number": "363",
+    "ocr_quality_score": 0.9509,
+    "text_hash": "279d827bea5a40c0ea3db0de6682a84b65c02c207e19fcedf76306dabffc0d33"
+  },
+  {
+    "id": "art-365",
+    "article_number": "365",
+    "ocr_quality_score": 0.9656,
+    "text_hash": "73eff63600a2e3a823fdebc242d302a7a0bc6c2497a2efa1bf2214efb91dc414"
+  },
+  {
+    "id": "art-367",
+    "article_number": "367",
+    "ocr_quality_score": 0.9263,
+    "text_hash": "e40c6b6ace1d9bc2b6d8aea69ca2b3ec6a5a91f3bd4984382fd630c1d2cf529a"
+  },
+  {
+    "id": "art-368",
+    "article_number": "368",
+    "ocr_quality_score": 1.0,
+    "text_hash": "af582d52fe69c549cc203526537fc88bcb3daef77f000eb95fe4c41178963d3b"
+  },
+  {
+    "id": "art-369",
+    "article_number": "369",
+    "ocr_quality_score": 0.966,
+    "text_hash": "9414bb848bfcea50e4bc3d00b04afa0452e5a400162eed2177e6cb08a72b5332"
+  },
+  {
+    "id": "art-372",
+    "article_number": "372",
+    "ocr_quality_score": 0.9951,
+    "text_hash": "090817f7ace9aefb20aa52103345e5371df69db3aceae158486b103ebdfba8e1"
+  },
+  {
+    "id": "art-374",
+    "article_number": "374",
+    "ocr_quality_score": 0.9673,
+    "text_hash": "20e52ee5bb17f1ed6ef45763ca7089f734c8479b7a7e2095385c379efa967d94"
+  },
+  {
+    "id": "art-375",
+    "article_number": "375",
+    "ocr_quality_score": 0.9813,
+    "text_hash": "1c2d7807ba39d0b125d418868618cb567c6cd1d2bc9ca6786c44ca18d6082c4b"
+  },
+  {
+    "id": "art-377",
+    "article_number": "377",
+    "ocr_quality_score": 0.944,
+    "text_hash": "dcfea9b7eb24a75d27174a90b2a9c5f64c4fe77bc43567becc74611a62c4150f"
+  },
+  {
+    "id": "art-378",
+    "article_number": "378",
+    "ocr_quality_score": 0.9839,
+    "text_hash": "589369161abfc60369c4edef54ebf5e27c1e5ffec84fcf5824317cf2a81462d7"
+  },
+  {
+    "id": "art-381",
+    "article_number": "381",
+    "ocr_quality_score": 0.9524,
+    "text_hash": "5c8a90c83de806a88aa7b04c5693ad455e99684a1d358eb841f65da5c8d732c7"
+  },
+  {
+    "id": "art-382",
+    "article_number": "382",
+    "ocr_quality_score": 0.9543,
+    "text_hash": "fdf948c10a0b2adbe0019fdea066579ec9b92dac0b004669c25dd05aafb1bc19"
+  },
+  {
+    "id": "art-383",
+    "article_number": "383",
+    "ocr_quality_score": 0.9704,
+    "text_hash": "bb03fc391ca5a8b05c661ebbb84153383af85a9fb6c3327ed50a20fa8eb9c9c4"
+  },
+  {
+    "id": "art-384",
+    "article_number": "384",
+    "ocr_quality_score": 0.9682,
+    "text_hash": "25dd0714d34225cdbf6a4d666e6db1bb87cb5839a284fef3c6b0d39f53d26ba2"
+  },
+  {
+    "id": "art-385",
+    "article_number": "385",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "307265a1ece6b7af271078e7b059b366cae5d6fab0621b69cca0d88e0616b94d"
+  },
+  {
+    "id": "art-386",
+    "article_number": "386",
+    "ocr_quality_score": 0.9087,
+    "text_hash": "bad8dcf56aa073d29b2f4cee81bc7cb60c605592635b1fca54ba87aaada432eb"
+  },
+  {
+    "id": "art-387",
+    "article_number": "387",
+    "ocr_quality_score": 0.9821,
+    "text_hash": "e3229ce44d36ff439d83e264db4de94bf9b469585f665284571966951ddfff63"
+  },
+  {
+    "id": "art-388",
+    "article_number": "388",
+    "ocr_quality_score": 0.9691,
+    "text_hash": "39fd8164332306f531a3461d13e147efd05983b3b3dd485695a7235263c156b8"
+  },
+  {
+    "id": "art-389",
+    "article_number": "389",
+    "ocr_quality_score": 0.9681,
+    "text_hash": "bbc808aecf36334b895bfc7cf04196db20862fbc2608ca54e9195b056595970d"
+  },
+  {
+    "id": "art-389-ter",
+    "article_number": "389 ter",
+    "ocr_quality_score": 0.9323,
+    "text_hash": "779ddfab412bc275094fb2ed6d3f429243efe97883d247dfd6e45f47f1f81d10"
+  },
+  {
+    "id": "art-389-quater",
+    "article_number": "389 quater",
+    "ocr_quality_score": 0.9543,
+    "text_hash": "2e40803d10c346bd5b38c6bdf4895f354128abd68833ad2d23d09a0de73ae5da"
+  },
+  {
+    "id": "art-389",
+    "article_number": "389",
+    "ocr_quality_score": 0.9781,
+    "text_hash": "c55b3b54ebce2db571047c0e78a33b8c5479d6ecffa557e3f88d455c0f2660ea"
+  },
+  {
+    "id": "art-389",
+    "article_number": "389",
+    "ocr_quality_score": 0.9414,
+    "text_hash": "8bcd35e72006443092cb3c41d3eaf2208b094eab350b6d597bca70292176b8b5"
+  },
+  {
+    "id": "art-394-bis",
+    "article_number": "394 bis",
+    "ocr_quality_score": 0.9592,
+    "text_hash": "7dec80574c9c2b7fc796e3ccfebfb66cc6660ced9f402c109f9fd41fe26c4aab"
+  },
+  {
+    "id": "art-394-quater",
+    "article_number": "394 quater",
+    "ocr_quality_score": 0.9539,
+    "text_hash": "1329e9169c59b8139f156c509c197faff3cdcc0c960924ecf6d64a59b181e892"
+  },
+  {
+    "id": "art-394",
+    "article_number": "394",
+    "ocr_quality_score": 0.965,
+    "text_hash": "a7e895e74fe61e7fd0fc506a6e01d744fa3d3d267dcaff34c0f7631250214355"
+  },
+  {
+    "id": "art-394",
+    "article_number": "394",
+    "ocr_quality_score": 0.9432,
+    "text_hash": "ed0bd64cd464dbed03dbfe4c9c71ed8c08e5d06df28d8f505d60b4c26b263005"
+  },
+  {
+    "id": "art-394",
+    "article_number": "394",
+    "ocr_quality_score": 0.9806,
+    "text_hash": "e06728b9a3364991db0c286171b816cc4d4ec7440864a9f1f86557ab4e61b595"
+  },
+  {
+    "id": "art-395",
+    "article_number": "395",
+    "ocr_quality_score": 0.9517,
+    "text_hash": "835462978cc9c241f7cffcd7196d8553bcece267afed746830f9dc408dcbcc6b"
+  },
+  {
+    "id": "art-396",
+    "article_number": "396",
+    "ocr_quality_score": 0.9585,
+    "text_hash": "251c7a067c5a4ea92aa32bf7e23492a0e59adfe01f83f8c0ee2b483f0c4374fa"
+  },
+  {
+    "id": "art-396-bis",
+    "article_number": "396 bis",
+    "ocr_quality_score": 0.9243,
+    "text_hash": "316c7e7caacb91976612912107c1d4fedc75275b11c49ffbeb3fbbaa64d9ace5"
+  },
+  {
+    "id": "art-397",
+    "article_number": "397",
+    "ocr_quality_score": 0.9352,
+    "text_hash": "abeeca618c0cd3d0e9548f0b48720c68f0dff9a3db8a36c404dfe29e4b4e9037"
+  },
+  {
+    "id": "art-398",
+    "article_number": "398",
+    "ocr_quality_score": 0.93,
+    "text_hash": "6f50655ed11926f1f0a5339326709f5229c43983cb5004706cf6db509b29b0c1"
+  },
+  {
+    "id": "art-399",
+    "article_number": "399",
+    "ocr_quality_score": 0.9553,
+    "text_hash": "9e682e352de2ac371e00a7a59b4fc15bed6be9ab9a9914caaa5e8c321bbe8b05"
+  },
+  {
+    "id": "art-400",
+    "article_number": "400",
+    "ocr_quality_score": 0.9767,
+    "text_hash": "cbc5da01061a8b2b8b9cc8965e2f75c1b70bae6e238a6b7c9ee808bc163b3d78"
+  },
+  {
+    "id": "art-402",
+    "article_number": "402",
+    "ocr_quality_score": 0.9682,
+    "text_hash": "865a5197074748883f3860faea00c325fa44d17308ef44abfe79f028b10698a4"
+  },
+  {
+    "id": "art-403",
+    "article_number": "403",
+    "ocr_quality_score": 0.9689,
+    "text_hash": "0f2c1c3b32280561f02623fc42659c6d59bea25f7af30b83e1503c6bc39802ea"
+  },
+  {
+    "id": "art-404",
+    "article_number": "404",
+    "ocr_quality_score": 1.0,
+    "text_hash": "390df29e41b9f920cb18559a9cd0fa981689d87662280815a42afcc50abb4039"
+  },
+  {
+    "id": "art-405",
+    "article_number": "405",
+    "ocr_quality_score": 1.0,
+    "text_hash": "465c93a4ac4d8bfc979f63a5384d55a7fa2f7b5fc1c49d3e4bc6cc664d383726"
+  },
+  {
+    "id": "art-406",
+    "article_number": "406",
+    "ocr_quality_score": 0.9555,
+    "text_hash": "51726333777f544f3abac1f2e9115fa9487caa29ccdfc925aab79a83c600e194"
+  },
+  {
+    "id": "art-406-bis",
+    "article_number": "406 bis",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "10379b4bcdccfb1c7cdce41f1be23e069a73e5f6358ebeca6182bc9a5df64aad"
+  },
+  {
+    "id": "art-407",
+    "article_number": "407",
+    "ocr_quality_score": 0.9382,
+    "text_hash": "e8b30ad7446bf9c7520ed40e3bd1fc6a88eadbc4feabaf9365fcbb2767d156af"
+  },
+  {
+    "id": "art-408",
+    "article_number": "408",
+    "ocr_quality_score": 0.9745,
+    "text_hash": "bb8d07aba96c5d667085c7713942466c12fcb299745ae322ffd1d6b6c9e49ea8"
+  },
+  {
+    "id": "art-410",
+    "article_number": "410",
+    "ocr_quality_score": 0.9632,
+    "text_hash": "39910dc3aeb0b68f13045880317b6e5c722a9a98ad77188ef9b0828983f9a5d6"
+  },
+  {
+    "id": "art-411",
+    "article_number": "411",
+    "ocr_quality_score": 0.9364,
+    "text_hash": "2fd0cc1f2708fc8d0c6e5df6e0df777e7fd74669843c5cb1b42d8f4e43f84cf6"
+  },
+  {
+    "id": "art-412",
+    "article_number": "412",
+    "ocr_quality_score": 0.95,
+    "text_hash": "ad342dfe08d6ce225eeacfe295c6b7d941053ee47ba750fdfb365085ebe0110d"
+  },
+  {
+    "id": "art-413",
+    "article_number": "413",
+    "ocr_quality_score": 0.9618,
+    "text_hash": "7cd01f4322c86fd593fdac3a083958b0947e528d40722e2030126b6e2c3fcb88"
+  },
+  {
+    "id": "art-413-bis",
+    "article_number": "413 bis",
+    "ocr_quality_score": 0.975,
+    "text_hash": "d4e420b9c5b89f07db556a6a8f0b5d2457f3911916766c6779398d6305eada00"
+  },
+  {
+    "id": "art-414",
+    "article_number": "414",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "e994cfd723b6a2ead581531fe38dea4413f2e616a2ee0a015260c7290a9235fe"
+  },
+  {
+    "id": "art-416",
+    "article_number": "416",
+    "ocr_quality_score": 0.9449,
+    "text_hash": "0bb9eed890bfbeb8420a3baab306e1f7095379a0788a45d5244f999b8e6f8e01"
+  },
+  {
+    "id": "art-417",
+    "article_number": "417",
+    "ocr_quality_score": 0.9774,
+    "text_hash": "f944f0dfb745a20a7ac6e060bcbf6d59b5bcbf52f52a4dfe758ff378998fac87"
+  },
+  {
+    "id": "art-417-bis",
+    "article_number": "417 bis",
+    "ocr_quality_score": 0.9354,
+    "text_hash": "b43c731dfbfab8fd623d4bfa3f857b35834d74fd94535dfcdf6e4d44b0a7f55d"
+  },
+  {
+    "id": "art-421",
+    "article_number": "421",
+    "ocr_quality_score": 0.9263,
+    "text_hash": "13d44dc5e0e7caad9e1c467520df10dd90a7d0b83e358b6389d649bc93b2cdae"
+  },
+  {
+    "id": "art-423",
+    "article_number": "423",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "bc34f7adecfee5eb99b826e8fa1616546a0d61182eb95fdfe5f6902cdf5bcdfc"
+  },
+  {
+    "id": "art-423",
+    "article_number": "423",
+    "ocr_quality_score": 0.895,
+    "text_hash": "1f8954a200bbbea8d60cc6851323088fa7aacd602ef8f20e7deff22639a728f0"
+  },
+  {
+    "id": "art-427",
+    "article_number": "427",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "a3f516a8e129510d88e871e4a1c96a2d45fd657c2dd96674b95ad29c8e680bbd"
+  },
+  {
+    "id": "art-428",
+    "article_number": "428",
+    "ocr_quality_score": 0.9781,
+    "text_hash": "f8761f334b6e01b1889869ad5cba52134ea772b4cd50982f06ee470e6c2e1070"
+  },
+  {
+    "id": "art-429",
+    "article_number": "429",
+    "ocr_quality_score": 0.924,
+    "text_hash": "524dcb5ca350cf3b7eb3f84419622f5db0efc9266002989b125cadbe061fc382"
+  },
+  {
+    "id": "art-431",
+    "article_number": "431",
+    "ocr_quality_score": 0.9413,
+    "text_hash": "f7f28f52ebfc5413dec608df2efdd2db10898bbe71bed31ffbc29d7610702cf5"
+  },
+  {
+    "id": "art-433",
+    "article_number": "433",
+    "ocr_quality_score": 0.9603,
+    "text_hash": "84a63e1c95c904c1c1e50e6bd513e0f27cb39193d486f99542e3f59f2dfb8467"
+  },
+  {
+    "id": "art-434",
+    "article_number": "434",
+    "ocr_quality_score": 0.9563,
+    "text_hash": "09fd5e0e3bca0df951eced84298044b669ae164fff6c6d47128a1d710f60e1f8"
+  },
+  {
+    "id": "art-435",
+    "article_number": "435",
+    "ocr_quality_score": 0.9708,
+    "text_hash": "9ddb711d674de7fc90a86f9e7322841dc5552545e708c365563c04eb714829c1"
+  },
+  {
+    "id": "art-440",
+    "article_number": "440",
+    "ocr_quality_score": 0.9317,
+    "text_hash": "c453e7b3e5ad58f018d59d920f85b95645ff525b1580755dc04619f4a3ef6c6e"
+  },
+  {
+    "id": "art-441",
+    "article_number": "441",
+    "ocr_quality_score": 0.9763,
+    "text_hash": "dbf9a9d65f39b3a925a63a3e027eaf1ba06a4ea6de2a9b43037c5ec22f41c77a"
+  },
+  {
+    "id": "art-444",
+    "article_number": "444",
+    "ocr_quality_score": 0.9568,
+    "text_hash": "47825b563294a2b3761968bbd74079cd8762253d045d9639ebee0947f4d25359"
+  },
+  {
+    "id": "art-445",
+    "article_number": "445",
+    "ocr_quality_score": 0.9382,
+    "text_hash": "063bb6d91b00da1a7bd7613f56b8b769aaf65b857980ff7903b5d3022ee47709"
+  },
+  {
+    "id": "art-446",
+    "article_number": "446",
+    "ocr_quality_score": 0.9417,
+    "text_hash": "02969320a89a55d029b6844ab5890f79d78a8dc4483d69241e98acf3ca995f5f"
+  },
+  {
+    "id": "art-447",
+    "article_number": "447",
+    "ocr_quality_score": 0.9263,
+    "text_hash": "20f860e89ab650c40ea05dab3c7623e0d93856e6e03050f3ca6d6a7eaaf89ae8"
+  },
+  {
+    "id": "art-448",
+    "article_number": "448",
+    "ocr_quality_score": 0.9364,
+    "text_hash": "85d4b0431a7f0f78024e6054d5b3c54e4e23667642afa4bdb94a9c4f0db7155f"
+  },
+  {
+    "id": "art-449",
+    "article_number": "449",
+    "ocr_quality_score": 0.9871,
+    "text_hash": "fc2acbc238ad5b2cd204899771d475107086ffc208f990f638b4a8c9d245dabf"
+  },
+  {
+    "id": "art-452",
+    "article_number": "452",
+    "ocr_quality_score": 0.9857,
+    "text_hash": "195a04b0f96e4dcb531d5609dad62f691ecc86c5afa2eff0e36b9e61d3effa48"
+  },
+  {
+    "id": "art-453",
+    "article_number": "453",
+    "ocr_quality_score": 0.9664,
+    "text_hash": "4ea90714dfae422e37aec3405b5a1155d2a2776296144e4f7949f84248f2aa7c"
+  },
+  {
+    "id": "art-454",
+    "article_number": "454",
+    "ocr_quality_score": 0.9723,
+    "text_hash": "d49063caf21f5163a6749a19d86637d2f4cb7fe1bdfdf49f4f678be442ad6ecf"
+  },
+  {
+    "id": "art-456",
+    "article_number": "456",
+    "ocr_quality_score": 0.9754,
+    "text_hash": "2947772b68fd9decf17cf69e8bf20256a00a10aad755aeaf10c15ab4a599a026"
+  },
+  {
+    "id": "art-457",
+    "article_number": "457",
+    "ocr_quality_score": 0.9583,
+    "text_hash": "4ef23c9b3905f23bf5bda3f20b30c04b8df2c79994bcc8caa9efcebefc1e53a0"
+  },
+  {
+    "id": "art-458",
+    "article_number": "458",
+    "ocr_quality_score": 0.9729,
+    "text_hash": "79f04b5bb6082208b0e90dd0097be00dcdb578b3f073e9185d7f23d6385e4115"
+  },
+  {
+    "id": "art-460",
+    "article_number": "460",
+    "ocr_quality_score": 0.9854,
+    "text_hash": "b0acd7cf715d12255d34e1caffa8e33b75c1954c91db956dcaa54e8259390066"
+  },
+  {
+    "id": "art-461",
+    "article_number": "461",
+    "ocr_quality_score": 0.9817,
+    "text_hash": "2d8700a3a944c936f257fc2b5a22fdee11a02c411294ccd07dac456b14ee8eda"
+  },
+  {
+    "id": "art-463",
+    "article_number": "463",
+    "ocr_quality_score": 0.98,
+    "text_hash": "15086416bdd9bc4790cb440fd813a15e7f36b725e139885a3ff934773fe428c1"
+  },
+  {
+    "id": "art-465",
+    "article_number": "465",
+    "ocr_quality_score": 0.9566,
+    "text_hash": "581650ea2c4fbfd3dc72c03a0d54a81f47236a8d7a70da1ec465f7ee59855192"
+  },
+  {
+    "id": "art-468",
+    "article_number": "468",
+    "ocr_quality_score": 0.9475,
+    "text_hash": "520d1477b47aa8377deef9275ca7b0dcfc167c1590769556c61e61dced49e5cb"
+  },
+  {
+    "id": "art-143",
+    "article_number": "143",
+    "ocr_quality_score": 0.9693,
+    "text_hash": "6d879a12dbf59edb176ae8d7ea97f95625c2cbf9454aca29d37ee93b52992481"
+  },
+  {
+    "id": "art-154",
+    "article_number": "154",
+    "ocr_quality_score": 0.9931,
+    "text_hash": "086aaf7f66a5cd7a91511c3a5f3c165e31ae08a81967edd53426e469f6d70e04"
+  },
+  {
+    "id": "art-174",
+    "article_number": "174",
+    "ocr_quality_score": 1.0,
+    "text_hash": "424708da19190771aa3be36edc60423bc1b8535352a72d27d999d2bd46473f5c"
+  },
+  {
+    "id": "art-16",
+    "article_number": "16",
+    "ocr_quality_score": 0.9417,
+    "text_hash": "f32f4fc12a9c31f074795e2ca20fceac0b8f3be08851f02aecb596ce96055670"
+  },
+  {
+    "id": "art-5-bis",
+    "article_number": "5 bis",
+    "ocr_quality_score": 0.9379,
+    "text_hash": "b0505663defeb39d7a6ba7bed43053bc1720a879ebdb278ef78bea81667c7481"
+  },
+  {
+    "id": "art-3",
+    "article_number": "3",
+    "ocr_quality_score": 0.9847,
+    "text_hash": "4c48b502e2d09016af5bb988484da95aede9f1a86c9fec2b584c159f2fec3f5c"
+  },
+  {
+    "id": "art-4",
+    "article_number": "4",
+    "ocr_quality_score": 0.9618,
+    "text_hash": "64eb967803f2bc5379e3c7a4bdd0261f6a13eb8f139317517cdd12f351dc79d2"
+  },
+  {
+    "id": "art-14",
+    "article_number": "14",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "4d4fa3839a389fd9768d56ee63c760d008783785169a370af403d8ffc80c1c33"
+  },
+  {
+    "id": "art-15",
+    "article_number": "15",
+    "ocr_quality_score": 0.9595,
+    "text_hash": "e08577d2d8ff0b13784a95a5d0c73a49c6898d326212b8cff87b617a507f3dc4"
+  },
+  {
+    "id": "art-16-bis-4",
+    "article_number": "16 bis 4",
+    "ocr_quality_score": 0.9786,
+    "text_hash": "c0fbdb870e0b4e9d551f6cda56a66809c7e7f2423a13c474286a919a440cb5a7"
+  },
+  {
+    "id": "art-16-bis-6",
+    "article_number": "16 bis 6",
+    "ocr_quality_score": 0.958,
+    "text_hash": "a0d7636015f73adaa2e0e139c2f1632d9179b8369068107c1065b35c2c5a7297"
+  },
+  {
+    "id": "art-9",
+    "article_number": "9",
+    "ocr_quality_score": 0.9699,
+    "text_hash": "e675f2e196cfc13569bcf5a7a5589d6ec9592a3c6c048befbb01b224cb9020f3"
+  },
+  {
+    "id": "art-22",
+    "article_number": "22",
+    "ocr_quality_score": 0.9911,
+    "text_hash": "6fe9f276916c6ae78d60ca257995b6f50102a4fdb714e46dfae914d488a801eb"
+  },
+  {
+    "id": "art-14",
+    "article_number": "14",
+    "ocr_quality_score": 0.9681,
+    "text_hash": "50df158a12ac0ffaed561cf92d198947ca09a41f2c9716848e12b54d00ee8932"
+  },
+  {
+    "id": "art-15",
+    "article_number": "15",
+    "ocr_quality_score": 0.9762,
+    "text_hash": "69c8b88bac214b41b247a25c211875a25fd781557fac0477fc677267f839644e"
+  },
+  {
+    "id": "art-53-bis-7",
+    "article_number": "53 bis 7",
+    "ocr_quality_score": 0.9841,
+    "text_hash": "2083e1eefe80a24fd1e7f473097ee07c9340c4b982618d95e2aca1ec03d4eca2"
+  },
+  {
+    "id": "art-53-bis-8",
+    "article_number": "53 bis 8",
+    "ocr_quality_score": 0.9756,
+    "text_hash": "2fad2f76a2af6d1102550b1aa72587d058c82ca25b3f242b95264ba7ccea6637"
+  },
+  {
+    "id": "art-16",
+    "article_number": "16",
+    "ocr_quality_score": 0.9785,
+    "text_hash": "d79761b7add2a1611216826c45e3e8ceb9366dbb558eeab3888f6b754ee980d8"
+  },
+  {
+    "id": "art-54-bis-1",
+    "article_number": "54 bis 1",
+    "ocr_quality_score": 0.9693,
+    "text_hash": "7333bc2cfb8e3906f9ac9a936f68a27af355f3866d7c02d75b01eb5491abb84e"
+  },
+  {
+    "id": "art-54-bis-2",
+    "article_number": "54 bis 2",
+    "ocr_quality_score": 0.9687,
+    "text_hash": "87c84130863cf9c2d544fab1dad5cb03ae5415f48cafaf73c3829901853656cb"
+  },
+  {
+    "id": "art-54-bis-8",
+    "article_number": "54 bis 8",
+    "ocr_quality_score": 0.9857,
+    "text_hash": "bd97bae3d7f5652b903d8555b5faff75f2cc02acbeff4382725ae7cac840e5e6"
+  },
+  {
+    "id": "art-54-bis-9",
+    "article_number": "54 bis 9",
+    "ocr_quality_score": 0.9767,
+    "text_hash": "eb130bf1d7345f7c4baed37f56feec6269777e59269a5d26149b984e5dff898c"
+  },
+  {
+    "id": "art-54-bis-10",
+    "article_number": "54 bis 10",
+    "ocr_quality_score": 0.9953,
+    "text_hash": "d9db4d64c932c7117c0af3cb0ecb024ccdce3fa5a9e60ea9cf4c7b96a2d6641d"
+  },
+  {
+    "id": "art-17",
+    "article_number": "17",
+    "ocr_quality_score": 0.9747,
+    "text_hash": "8db08db05411d5d6b2aaff602bb642fbfa60a6a5fd123ebf112370a4dc99ccfd"
+  },
+  {
+    "id": "art-18",
+    "article_number": "18",
+    "ocr_quality_score": 0.9582,
+    "text_hash": "6fc6233cbff6509da220f75ae37999f9048de0abb8dd9d7ac9055bcc04fae04f"
+  },
+  {
+    "id": "art-77",
+    "article_number": "77",
+    "ocr_quality_score": 0.9511,
+    "text_hash": "1d0d4a1328f91abf3f06232bd279cb9d77aa24ed82a5972c3507b3e6e597ed26"
+  },
+  {
+    "id": "art-87-bis-1",
+    "article_number": "87 bis 1",
+    "ocr_quality_score": 0.944,
+    "text_hash": "4ccde355e2800da8872918ea86f565be741b48a8845f97e3d0e24920c17661fb"
+  },
+  {
+    "id": "art-20",
+    "article_number": "20",
+    "ocr_quality_score": 0.956,
+    "text_hash": "262c6e9a578a5f80ae839fa85f76f4a62c56aa88a303129089d5c5785a80b58e"
+  },
+  {
+    "id": "art-198",
+    "article_number": "198",
+    "ocr_quality_score": 0.9113,
+    "text_hash": "14792c02c2b4073d83f069e17a72b0b509d973e3a8cc5314d95730caf0d1a9e1"
+  },
+  {
+    "id": "art-200",
+    "article_number": "200",
+    "ocr_quality_score": 0.9476,
+    "text_hash": "4b0c6a3895ee2fa65a027730e9a84401b06d4e9a5ba7ef8a28d7a6b06abd8b6b"
+  },
+  {
+    "id": "art-206",
+    "article_number": "206",
+    "ocr_quality_score": 0.9376,
+    "text_hash": "b03796d298e1f561d48662879c1b81db34df88f493ddd411ccfe306275e01e29"
+  },
+  {
+    "id": "art-207",
+    "article_number": "207",
+    "ocr_quality_score": 0.9537,
+    "text_hash": "c41a344335291457d55b806e8a3fe32550d759cd582111c65ff9347e3eb53b39"
+  },
+  {
+    "id": "art-216",
+    "article_number": "216",
+    "ocr_quality_score": 0.9573,
+    "text_hash": "4f0e646de1362b55a567aaa8e03469b266c17341bfd84339d49c25dbd393435d"
+  },
+  {
+    "id": "art-28",
+    "article_number": "28",
+    "ocr_quality_score": 0.9557,
+    "text_hash": "7c4d56b1f5ab41ba8188977a7cac7584d5b4e331e025af08565a04cbcae0cc44"
+  },
+  {
+    "id": "art-29",
+    "article_number": "29",
+    "ocr_quality_score": 0.95,
+    "text_hash": "191e7b86fa04706c60933757cafda8eea5ac041adda2487e73e504d15e454985"
+  },
+  {
+    "id": "art-293",
+    "article_number": "293",
+    "ocr_quality_score": 0.9192,
+    "text_hash": "d9de8d3f5537635c084e268d7491fd68e6d0e51547eb16cb15a0710651844552"
+  },
+  {
+    "id": "art-293-bis",
+    "article_number": "293 bis",
+    "ocr_quality_score": 0.946,
+    "text_hash": "4ed5cf73576fae4ee3e82599a1e657eb6abc7c22b6f4987d4ae69f32454c1557"
+  },
+  {
+    "id": "art-30",
+    "article_number": "30",
+    "ocr_quality_score": 0.9688,
+    "text_hash": "e1e5b9378f378ec7a40d2b03dd8c5a71d27152970ccfe012e0492b24d35d7f73"
+  },
+  {
+    "id": "art-31",
+    "article_number": "31",
+    "ocr_quality_score": 0.9462,
+    "text_hash": "325f5f011f518c0f3235d35376e7d1af33d1a06d0045c75ad1ba21f2216be204"
+  },
+  {
+    "id": "art-32",
+    "article_number": "32",
+    "ocr_quality_score": 0.9844,
+    "text_hash": "29d363f3d57846a29b06824eae09c84d06dd4123dd1fec53b7d85913da4e793a"
+  },
+  {
+    "id": "art-303-bis-2",
+    "article_number": "303 bis 2",
+    "ocr_quality_score": 0.9704,
+    "text_hash": "1b82b92d0a4f08086edff699b3739b70002c93ac1996fa831a57dba8c484647e"
+  },
+  {
+    "id": "art-303-bis-3",
+    "article_number": "303 bis 3",
+    "ocr_quality_score": 0.971,
+    "text_hash": "8ac339b4df250278b297a6e28d2e9c5e213aeeca47d3057808a0dc9c6bfe0477"
+  },
+  {
+    "id": "art-35",
+    "article_number": "35",
+    "ocr_quality_score": 0.9738,
+    "text_hash": "15fbe1306405a0b4cbfbb6cf78868eb0c5b34579941f575799c26e637871d9fc"
+  },
+  {
+    "id": "art-36",
+    "article_number": "36",
+    "ocr_quality_score": 0.9495,
+    "text_hash": "642873a9b01bd6509631fecba8f1e28d697c5eab0d279b1d8b17ac9d6416f4b0"
+  },
+  {
+    "id": "art-39",
+    "article_number": "39",
+    "ocr_quality_score": 0.9632,
+    "text_hash": "53710f34d9e7e2bd85585cbf2fa91c39c19ba2dbe3feff56f8a6ee251e9c3577"
+  },
+  {
+    "id": "art-341-bis-1",
+    "article_number": "341 bis 1",
+    "ocr_quality_score": 0.9916,
+    "text_hash": "4b7ca232ba3aa3acb26a60d972558773317d45ac0d4cbb71cf0deaee532aa9c7"
+  },
+  {
+    "id": "art-349-bis",
+    "article_number": "349 bis",
+    "ocr_quality_score": 0.9904,
+    "text_hash": "f07bbc9651d028f15dfd19c38dfd29c6f1a2b488556e26679545d06adf8a0af3"
+  },
+  {
+    "id": "art-40",
+    "article_number": "40",
+    "ocr_quality_score": 0.9576,
+    "text_hash": "ce566ad97af3d4ff3d94687edbb2dfac51ccedee0cc80acf740c2716d086be49"
+  },
+  {
+    "id": "art-41",
+    "article_number": "41",
+    "ocr_quality_score": 0.9213,
+    "text_hash": "c548056252802a024faaa54633da0342df478e22b29dbde22df8fd785480e366"
+  },
+  {
+    "id": "art-46",
+    "article_number": "46",
+    "ocr_quality_score": 0.9251,
+    "text_hash": "8703e6abd68274b026be2b2ac78313b44b90a9c961532db2afe325e00bc0e6fc"
+  },
+  {
+    "id": "art-47",
+    "article_number": "47",
+    "ocr_quality_score": 0.9493,
+    "text_hash": "44a3444c0b5920e2150c86aed7a5cbd58ac603ca5248620c3e6d58b450d7b618"
+  },
+  {
+    "id": "art-48",
+    "article_number": "48",
+    "ocr_quality_score": 0.9844,
+    "text_hash": "dc70fa65e0a9811f310567a4722a3ff56fedf7078001f9b59271f4a679c0f8c8"
+  },
+  {
+    "id": "art-49",
+    "article_number": "49",
+    "ocr_quality_score": 0.9841,
+    "text_hash": "a532e3ce18245deea6b0368ea1e2fa4d50bd49a20dfbc49f426305010ca72c07"
+  },
+  {
+    "id": "art-50",
+    "article_number": "50",
+    "ocr_quality_score": 1.0,
+    "text_hash": "5cb991746047bafd5e3d94b245562e97dff870f8007038e0f762dad4d378533e"
+  },
+  {
+    "id": "art-396-bis",
+    "article_number": "396 bis",
+    "ocr_quality_score": 0.9611,
+    "text_hash": "66011be2969e6a24c85ed9555ee907f45f2542b83f92c6cc17566500f4a519b9"
+  },
+  {
+    "id": "art-402",
+    "article_number": "402",
+    "ocr_quality_score": 0.9632,
+    "text_hash": "f3ffb549be3e588e4afcbf404e2f929b9fd795da6aa0af0b03b7a4fb57466460"
+  },
+  {
+    "id": "art-403",
+    "article_number": "403",
+    "ocr_quality_score": 0.9512,
+    "text_hash": "f1b7057eb9a3299a68c34bac69fd4403321ad286ef950067a840bdde79027fb8"
+  },
+  {
+    "id": "art-406",
+    "article_number": "406",
+    "ocr_quality_score": 0.9502,
+    "text_hash": "94bf77193967a903c5bdfde0d8be3c7ae1e8da195edd6a9305069e934a5609d5"
+  },
+  {
+    "id": "art-408",
+    "article_number": "408",
+    "ocr_quality_score": 0.9534,
+    "text_hash": "f9e3602894c778fb295abd7a32fbf9118d7c17d1d6aaebc53b8108ceb91f99da"
+  },
+  {
+    "id": "art-417-bis",
+    "article_number": "417 bis",
+    "ocr_quality_score": 0.9467,
+    "text_hash": "eff05813647ca037460d8a29198862e3ecddb3a4baa325292219cf09d83ed30f"
+  },
+  {
+    "id": "art-54",
+    "article_number": "54",
+    "ocr_quality_score": 0.9731,
+    "text_hash": "6bf049944348c1f264c3d6c3500cc889b7f05f88a162a761f703febcdca46140"
+  },
+  {
+    "id": "art-58",
+    "article_number": "58",
+    "ocr_quality_score": 0.9614,
+    "text_hash": "2a3aadb8896806893e911a7ee1ce29767fd1b4d9fa8c23cff18245c9bc9d9eda"
+  },
+  {
+    "id": "art-59",
+    "article_number": "59",
+    "ocr_quality_score": 0.9477,
+    "text_hash": "2215758cca57575ee2fc5082fb9a57775afd9c74fd50c92e7746af51bf9c303f"
+  },
+  {
+    "id": "art-465",
+    "article_number": "465",
+    "ocr_quality_score": 0.9832,
+    "text_hash": "a84cf3af08b8ea1ce9184ab23eebaf6ec7ffdc0d0e965b185e29f21b8d864d43"
+  },
+  {
+    "id": "art-4",
+    "article_number": "4",
+    "ocr_quality_score": 0.9617,
+    "text_hash": "8bd464c720a86379b14e8a484076d62a479c8dbcdac095e220153b96acfe5c16"
+  },
+  {
+    "id": "art-12",
+    "article_number": "12",
+    "ocr_quality_score": 0.9752,
+    "text_hash": "ca646b1a7894f43b0f6e5431587676e7fa38a46ff7999aa3f21b4bcab644ad2d"
+  },
+  {
+    "id": "art-18-bis",
+    "article_number": "18 bis",
+    "ocr_quality_score": 0.9435,
+    "text_hash": "1fedade7c84351181d96a11ae767325f27682660d8ebbb550ebabc4d454725b4"
+  },
+  {
+    "id": "art-19",
+    "article_number": "19",
+    "ocr_quality_score": 0.994,
+    "text_hash": "5ce7924718fcc3db990bedc0a4b71d5240074b22ff129cc012f9b8b785b9bcf1"
+  },
+  {
+    "id": "art-23",
+    "article_number": "23",
+    "ocr_quality_score": 0.9819,
+    "text_hash": "11da504749d87fe2087ec23666f2dc0a2956dc445103761633a49ef6d8a6b81e"
+  },
+  {
+    "id": "art-27",
+    "article_number": "27",
+    "ocr_quality_score": 1.0,
+    "text_hash": "3d3f0f27b1980f867cb0b0e7c2765388687f45cfc213ead0e13aca1a0416944c"
+  },
+  {
+    "id": "art-32",
+    "article_number": "32",
+    "ocr_quality_score": 1.0,
+    "text_hash": "f32d67ca7b28b66b753431ec44e827a6049a5d04c25f4a548a9d02367dcfebab"
+  },
+  {
+    "id": "art-33",
+    "article_number": "33",
+    "ocr_quality_score": 0.8963,
+    "text_hash": "77423c97db12596fe6897bb8a490edf05e572687f779976154159e88b6d40e9b"
+  },
+  {
+    "id": "art-39",
+    "article_number": "39",
+    "ocr_quality_score": 0.9486,
+    "text_hash": "d7e23b93b7d7d462a2ccf22fe3fcfcced2048fae558999674ac1355f8a0e5062"
+  },
+  {
+    "id": "art-43",
+    "article_number": "43",
+    "ocr_quality_score": 0.9689,
+    "text_hash": "a44f909d4207b22972cb0b42ca6155e3613ebb10a3d03624519f2c5cce17ec51"
+  },
+  {
+    "id": "art-44",
+    "article_number": "44",
+    "ocr_quality_score": 1.0,
+    "text_hash": "65495954a7617a494926e3a681e699bc90556e6387046c904f68c80bb95293cf"
+  },
+  {
+    "id": "art-49",
+    "article_number": "49",
+    "ocr_quality_score": 0.9854,
+    "text_hash": "272f11c7491038b0266745f82e4d01005ea0f73e469c1462c1391f7f024eb48f"
+  },
+  {
+    "id": "art-50",
+    "article_number": "50",
+    "ocr_quality_score": 0.9745,
+    "text_hash": "fd74a0ac33777b864566d293110fca26dd16d1871815a4cf38a2b2d167395704"
+  },
+  {
+    "id": "art-53",
+    "article_number": "53",
+    "ocr_quality_score": 0.9563,
+    "text_hash": "644cb6f2d2bca531430fa796f3ea7c13df8defab0df68df2d035ff69f134e9ee"
+  },
+  {
+    "id": "art-54",
+    "article_number": "54",
+    "ocr_quality_score": 0.9236,
+    "text_hash": "bc6324883efadcdb2710a4fb40faf6aa9815a9a5947f5c154d2e800441e17dee"
+  },
+  {
+    "id": "art-57",
+    "article_number": "57",
+    "ocr_quality_score": 0.9952,
+    "text_hash": "dea8c495384ece311e9ce658f55c2bbb7f3afc1d83ffb13440e70553ff0eadaf"
+  },
+  {
+    "id": "art-62",
+    "article_number": "62",
+    "ocr_quality_score": 0.9725,
+    "text_hash": "14ff98c222f248c261f7941a9a3fce18691d7209a5c209d5cac1b13b2e2c7b78"
+  },
+  {
+    "id": "art-68",
+    "article_number": "68",
+    "ocr_quality_score": 0.9735,
+    "text_hash": "407873a39e64ee62e47688e2cd8ddfb19c9ed13b4dcb14126fd97c2d3a1ecb37"
+  },
+  {
+    "id": "art-73",
+    "article_number": "73",
+    "ocr_quality_score": 0.9333,
+    "text_hash": "ad76c7915d825880dc12813cc19110027b833aaa5c028e2279de3cac05569e15"
+  },
+  {
+    "id": "art-78",
+    "article_number": "78",
+    "ocr_quality_score": 0.9385,
+    "text_hash": "b80eca1d87d869c35b00d5db22eb76c6d073c55bc3258795a4ed95bd3c4e2553"
+  },
+  {
+    "id": "art-82",
+    "article_number": "82",
+    "ocr_quality_score": 0.9,
+    "text_hash": "348e4a8324328f8753f09e5c1d2d93e4fbe436596c7e725a182ec85452b3d394"
+  },
+  {
+    "id": "art-83",
+    "article_number": "83",
+    "ocr_quality_score": 0.9553,
+    "text_hash": "52e26849a39c16398732e32a475e19f3c8c7a94984ea7b24bf2b7fcc03c9ecbc"
+  },
+  {
+    "id": "art-86",
+    "article_number": "86",
+    "ocr_quality_score": 0.9704,
+    "text_hash": "f6bd54b530f783f9a5f4d35a74879e1ade363047e36b3cecf237b341788e455b"
+  },
+  {
+    "id": "art-87-bis-4",
+    "article_number": "87 bis 4",
+    "ocr_quality_score": 0.95,
+    "text_hash": "5ab3e2a613c6edc5a7a2644b7742c7b837cfae8aa6b406a805d4ec4fd86906d0"
+  },
+  {
+    "id": "art-87-bis-8",
+    "article_number": "87 bis 8",
+    "ocr_quality_score": 0.9222,
+    "text_hash": "8de1ab7618bca2e0883b73ab55155c7005507e69ba70156de90a0b08644002e6"
+  },
+  {
+    "id": "art-88",
+    "article_number": "88",
+    "ocr_quality_score": 0.9361,
+    "text_hash": "a07605b34eb5128fc908db57689699da23bab931ea44a1f5d4458876bd0055c8"
+  },
+  {
+    "id": "art-90",
+    "article_number": "90",
+    "ocr_quality_score": 0.994,
+    "text_hash": "5df6fded5f725de23e3a7019c9787e85f59dea3558a3be733f281f73764722be"
+  },
+  {
+    "id": "art-92",
+    "article_number": "92",
+    "ocr_quality_score": 0.987,
+    "text_hash": "3cebe63c68b21d75f2d9cc62941a29a6ace8fd4a7a21e89af2d7a066eba48d0f"
+  },
+  {
+    "id": "art-94",
+    "article_number": "94",
+    "ocr_quality_score": 1.0,
+    "text_hash": "6de0f80ab79dc6d273d5279c61a5eafd906e4c379ec88ccfe8463b5aae3cecff"
+  },
+  {
+    "id": "art-97",
+    "article_number": "97",
+    "ocr_quality_score": 0.956,
+    "text_hash": "e18624899e2c89eb09bd2705c3bde20ad7a23f583e95bc41c2d931b0b93daf0e"
+  },
+  {
+    "id": "art-98",
+    "article_number": "98",
+    "ocr_quality_score": 0.9437,
+    "text_hash": "7f576e1c3b1910d822ddb565334a17cc51d023f3a63811fea304f7a800ee3fba"
+  },
+  {
+    "id": "art-101",
+    "article_number": "101",
+    "ocr_quality_score": 0.9741,
+    "text_hash": "d171466316bbcee4add81034878b54088bb1465a7bf57624053cc5b5430a4c1f"
+  },
+  {
+    "id": "art-104",
+    "article_number": "104",
+    "ocr_quality_score": 0.96,
+    "text_hash": "a05453b010424ae90621fe146467aa29db9e862c823c55974c4bba98ccb23536"
+  },
+  {
+    "id": "art-105",
+    "article_number": "105",
+    "ocr_quality_score": 0.9594,
+    "text_hash": "436d24f5bd36aeb8f169e946d0e5466ccbedfa854d5bb88ce48f9e36d85ce85e"
+  },
+  {
+    "id": "art-110",
+    "article_number": "110",
+    "ocr_quality_score": 0.9424,
+    "text_hash": "f3d46a567211bf4891a9a1d6716b5d03e751ae77308fdbac9404c693fbef467f"
+  },
+  {
+    "id": "art-112",
+    "article_number": "112",
+    "ocr_quality_score": 0.9848,
+    "text_hash": "2fc81510f05a478a0e1384b8d98f2b4013bbffa72fb571e93caa75394c09e46d"
+  },
+  {
+    "id": "art-116",
+    "article_number": "116",
+    "ocr_quality_score": 0.95,
+    "text_hash": "6ca701fa8d438913a746896bd42c1e2b3f44c41f42a411197d12267cc3615e0e"
+  },
+  {
+    "id": "art-119",
+    "article_number": "119",
+    "ocr_quality_score": 0.9731,
+    "text_hash": "d8909d1e7acdcca54b74db07eceddfe193880e48b93c659c5b0673217b9d6549"
+  },
+  {
+    "id": "art-121",
+    "article_number": "121",
+    "ocr_quality_score": 0.9485,
+    "text_hash": "32fef57e707e8de5662a4ffa81ab45a43c4d614abc183b60044136f6585ac8e0"
+  },
+  {
+    "id": "art-122",
+    "article_number": "122",
+    "ocr_quality_score": 0.95,
+    "text_hash": "2a6fb1a2ba45ccd7c62963661cb65325af682504a2734809f463980020034116"
+  },
+  {
+    "id": "art-126",
+    "article_number": "126",
+    "ocr_quality_score": 0.9676,
+    "text_hash": "aa82d9b4c041a6c8ea4565bc550074891bea6372639ef95617ebd8b2de381421"
+  },
+  {
+    "id": "art-128",
+    "article_number": "128",
+    "ocr_quality_score": 0.9724,
+    "text_hash": "b10ea9981a3d3af08e89d9852716cea65d971f7a6fcabb8e1235fd757526d00d"
+  },
+  {
+    "id": "art-128-bis-1",
+    "article_number": "128 bis 1",
+    "ocr_quality_score": 0.9051,
+    "text_hash": "5cf2a38c6e9ac16c5f7b67f7ab7cb8cf750aff3c6fe0df5e297fa676012b6943"
+  },
+  {
+    "id": "art-133",
+    "article_number": "133",
+    "ocr_quality_score": 0.9759,
+    "text_hash": "8842447f31cf443a967eff65cbe558b85b79dadc588be00fea40d9e04e86613e"
+  },
+  {
+    "id": "art-134",
+    "article_number": "134",
+    "ocr_quality_score": 0.9899,
+    "text_hash": "fe27e2d2c784f6653fe499418c5f961a64e8a59f210b740a9bdcaebfb27b68e9"
+  },
+  {
+    "id": "art-137-bis",
+    "article_number": "137 bis",
+    "ocr_quality_score": 0.9774,
+    "text_hash": "8a5a5e16d98e3808f55806903f2a3956e641d3f31be7e6673174a11e160619cd"
+  },
+  {
+    "id": "art-140",
+    "article_number": "140",
+    "ocr_quality_score": 1.0,
+    "text_hash": "6ade2ee581763df2772e56b306f1b0038e91c275721c73b54fd0c36ee4447624"
+  },
+  {
+    "id": "art-141",
+    "article_number": "141",
+    "ocr_quality_score": 0.9211,
+    "text_hash": "3ce204484198d6e62ee5cf337d3d40ae5cacc8dc7e37ec9a05699bc6521b3c51"
+  },
+  {
+    "id": "art-144-bis",
+    "article_number": "144 bis",
+    "ocr_quality_score": 0.96,
+    "text_hash": "b07ac37eddedff141f8e89d7bbd3d20ee0ea9d6a8e511b1cb02f91cf86758587"
+  },
+  {
+    "id": "art-145",
+    "article_number": "145",
+    "ocr_quality_score": 0.975,
+    "text_hash": "c515daa8139ded23bd753b527c4e2d58d2f31a5a43d8c714482882032bf11133"
+  },
+  {
+    "id": "art-146",
+    "article_number": "146",
+    "ocr_quality_score": 0.9806,
+    "text_hash": "1ac7a1735fc2ecf333f16545bb38761a0e3c8919724a70130bf173ce33d89931"
+  },
+  {
+    "id": "art-154",
+    "article_number": "154",
+    "ocr_quality_score": 0.9441,
+    "text_hash": "e83b8a75ca67ea812a10d5ce12194affbf896a5f03031a690d36f2e139163fd9"
+  },
+  {
+    "id": "art-160",
+    "article_number": "160",
+    "ocr_quality_score": 0.9588,
+    "text_hash": "7ede233994fe49ff0714c16ac5d2707720dac03d8905e1384e903a129e36d098"
+  },
+  {
+    "id": "art-160-bis",
+    "article_number": "160 bis",
+    "ocr_quality_score": 0.916,
+    "text_hash": "1120eb11734ac5bd222b6d25f77936ac0165877bc437b6079fd4e16e12816271"
+  },
+  {
+    "id": "art-160",
+    "article_number": "160",
+    "ocr_quality_score": 0.9364,
+    "text_hash": "3ac5a9590a936620e68adb924e4bc5a6f31c35ddffe56f8e1f1cbbffcf952443"
+  },
+  {
+    "id": "art-160",
+    "article_number": "160",
+    "ocr_quality_score": 0.9263,
+    "text_hash": "79098358b4b42b3e081bddd6fcc4030b005a2240f09053b4ebc3d2a5a7adf2c2"
+  },
+  {
+    "id": "art-162",
+    "article_number": "162",
+    "ocr_quality_score": 0.9702,
+    "text_hash": "da031a8060198ff640a87954bef3bbc3f2f1e91a27e37d3cf539c3dc44726067"
+  },
+  {
+    "id": "art-163",
+    "article_number": "163",
+    "ocr_quality_score": 0.9831,
+    "text_hash": "7959356336d16da5db29c65be7207b69452e0fe1e82aaa62320aee059baf7447"
+  },
+  {
+    "id": "art-166",
+    "article_number": "166",
+    "ocr_quality_score": 0.9659,
+    "text_hash": "734b24cc13b36fe3e1fd97a4be518e576303b7f67b84a1cd147b3fe1510e5441"
+  },
+  {
+    "id": "art-171",
+    "article_number": "171",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "7e1c49a1b569e18c017c2eb73b0032d1b4dc47d831e39662e4fd809c0fae1c7a"
+  },
+  {
+    "id": "art-172",
+    "article_number": "172",
+    "ocr_quality_score": 0.9628,
+    "text_hash": "ad3373d5ead11df56c1e7a2fa49cf669c6328393e6f08929a3736ea30f5a35dd"
+  },
+  {
+    "id": "art-175",
+    "article_number": "175",
+    "ocr_quality_score": 0.9249,
+    "text_hash": "32c27b6e61ef271ea25ba9ee3579020a58a6f59556e8b7f664074793b513175f"
+  },
+  {
+    "id": "art-182",
+    "article_number": "182",
+    "ocr_quality_score": 0.9806,
+    "text_hash": "0cd5c6c3af446ec267ff990bbcb57259b696c9f7918518ea764230e97dc7ed21"
+  },
+  {
+    "id": "art-184",
+    "article_number": "184",
+    "ocr_quality_score": 0.934,
+    "text_hash": "7e2d97a436525329002399de088b9da207ae5e8b4bbf75e480abcc836ff43eea"
+  },
+  {
+    "id": "art-185",
+    "article_number": "185",
+    "ocr_quality_score": 0.9391,
+    "text_hash": "3546f08f59da17683ed5bf30187d3ccd92865095150cb5e63e0d00722b685752"
+  },
+  {
+    "id": "art-188",
+    "article_number": "188",
+    "ocr_quality_score": 0.9673,
+    "text_hash": "b97609c25d8ed28aaa98b3ef094a55e575347e5264ed5b592e8fe5a48ead7941"
+  },
+  {
+    "id": "art-198",
+    "article_number": "198",
+    "ocr_quality_score": 0.9592,
+    "text_hash": "959d993c940ed273d74ce38808e4b5d1795abf89be880bc65c7a4f74161e92b4"
+  },
+  {
+    "id": "art-199",
+    "article_number": "199",
+    "ocr_quality_score": 0.9391,
+    "text_hash": "48ab1576bbd762e53a509f267d19d10692605469abb1dd8809ef935e096c99ce"
+  },
+  {
+    "id": "art-203",
+    "article_number": "203",
+    "ocr_quality_score": 0.9708,
+    "text_hash": "3559e59df25eb728e5145a40c614d6ed9624b559d0ec5de9e4699b813e3c2679"
+  },
+  {
+    "id": "art-204",
+    "article_number": "204",
+    "ocr_quality_score": 0.9767,
+    "text_hash": "8576592b35681514342a2266dd7dafc311a9deaba383a64be876587d0023bd6f"
+  },
+  {
+    "id": "art-209",
+    "article_number": "209",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "f9fe7f554c19aa738f9d3c71ace716ca60996260c18c57b27bf3b38ba1e2fb69"
+  },
+  {
+    "id": "art-211",
+    "article_number": "211",
+    "ocr_quality_score": 0.959,
+    "text_hash": "6f9650e2fbcea2c7562595260927126b05800338454b03ca4242e3b8297108dd"
+  },
+  {
+    "id": "art-216",
+    "article_number": "216",
+    "ocr_quality_score": 0.9875,
+    "text_hash": "b888a92ed81240c8fa2dc78bb4ca31e5fa0d6a6f3aa10caa2bf7004d672f8b08"
+  },
+  {
+    "id": "art-220",
+    "article_number": "220",
+    "ocr_quality_score": 0.9349,
+    "text_hash": "85e299874dbd4a872100a4fa30ca5446ed2599c3be317fc236cef969f1dc43a6"
+  },
+  {
+    "id": "art-223",
+    "article_number": "223",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "f133edaf92ae51440d25e2b95c10d89edc2512b5a921637b73d0b1d8701bb99e"
+  },
+  {
+    "id": "art-226",
+    "article_number": "226",
+    "ocr_quality_score": 0.9893,
+    "text_hash": "d26d06c03a8678abbc9c6d61b04e35bd9522ee0e99cd594101a7baf6dab8e71e"
+  },
+  {
+    "id": "art-228-bis",
+    "article_number": "228 bis",
+    "ocr_quality_score": 0.9222,
+    "text_hash": "18a5bcc1160721573516541ca3ba32a88413595b254a69bcf52e6f9548c29182"
+  },
+  {
+    "id": "art-233",
+    "article_number": "233",
+    "ocr_quality_score": 0.9523,
+    "text_hash": "cff0a9ed4bfaaee5ed07de04103aa464d8bdb84b9329b737a3f512033ca2bfc8"
+  },
+  {
+    "id": "art-237",
+    "article_number": "237",
+    "ocr_quality_score": 0.9851,
+    "text_hash": "a639291e59dacdf4979a77cc035dde25451e20f9a79022397855e5d189d54833"
+  },
+  {
+    "id": "art-242",
+    "article_number": "242",
+    "ocr_quality_score": 0.9197,
+    "text_hash": "090e531a54a81f32f359601bfa7a8bba162a9db5ead52489b5bef4382390a4d5"
+  },
+  {
+    "id": "art-247",
+    "article_number": "247",
+    "ocr_quality_score": 0.9563,
+    "text_hash": "735bac0c44096e09b217eee7bb85c52a295f11cfcfe6fe808e63ea55ccccca39"
+  },
+  {
+    "id": "art-248",
+    "article_number": "248",
+    "ocr_quality_score": 1.0,
+    "text_hash": "5433ccf7579bdf1a151aa6ace4356ae46a49c023b4f4931334f3a187f90f5088"
+  },
+  {
+    "id": "art-253",
+    "article_number": "253",
+    "ocr_quality_score": 0.9803,
+    "text_hash": "6216ae5a1d70b310c393b4e2d4c562b01b61103a9511ffe3619c6a56c7cc5023"
+  },
+  {
+    "id": "art-258",
+    "article_number": "258",
+    "ocr_quality_score": 1.0,
+    "text_hash": "6112023595ce1cba615663b4b3ea84bfbb245c2153a17f77656b6d7d6ddecd86"
+  },
+  {
+    "id": "art-259",
+    "article_number": "259",
+    "ocr_quality_score": 1.0,
+    "text_hash": "bce7482dcdb733545a17a62e92589bcbb856c81484d95bd501b96b05f272d785"
+  },
+  {
+    "id": "art-260",
+    "article_number": "260",
+    "ocr_quality_score": 0.9736,
+    "text_hash": "b270183a8f66f7fde7a564e78db0ba86f40c50c79cf003439310f40c9f49c535"
+  },
+  {
+    "id": "art-263-ter",
+    "article_number": "263 ter",
+    "ocr_quality_score": 0.9147,
+    "text_hash": "469474616c70b62a2c99eab4930f5f291c50980dc1e62a1455860ac1462be445"
+  },
+  {
+    "id": "art-265",
+    "article_number": "265",
+    "ocr_quality_score": 0.9505,
+    "text_hash": "2cf94e3219985367ff2c34fb51e25720cc2706c1e0470d7fcc63a5e947dba802"
+  },
+  {
+    "id": "art-270",
+    "article_number": "270",
+    "ocr_quality_score": 0.9763,
+    "text_hash": "eca70a4b1c2e5d75c121f29ff1c129c1508ebed17f87a6935cece6fadad51e34"
+  },
+  {
+    "id": "art-273",
+    "article_number": "273",
+    "ocr_quality_score": 0.8996,
+    "text_hash": "aa33c338cdce37135397ff0e8efa4817d3cc7a480929e370a2ddd5655f52986e"
+  },
+  {
+    "id": "art-282",
+    "article_number": "282",
+    "ocr_quality_score": 1.0,
+    "text_hash": "654f391a21ef788dc937ae9b7666874ac12b133c64bdaea17e143dcc902e7590"
+  },
+  {
+    "id": "art-283",
+    "article_number": "283",
+    "ocr_quality_score": 0.9291,
+    "text_hash": "fe0c5a3ab0a6f96d23afeba3fb3d7a23946f96aa12517d36b2110a1a0e01436d"
+  },
+  {
+    "id": "art-286",
+    "article_number": "286",
+    "ocr_quality_score": 0.9571,
+    "text_hash": "82de4407fa312f2d7c39119c5fae34e9ac8c7d40412dc3028932af65d7a1d012"
+  },
+  {
+    "id": "art-287",
+    "article_number": "287",
+    "ocr_quality_score": 0.8979,
+    "text_hash": "640c11c324dabd7f26864d7391a4979e4d42c07d4936b36b70dfe17ca7349c5d"
+  },
+  {
+    "id": "art-291",
+    "article_number": "291",
+    "ocr_quality_score": 0.9632,
+    "text_hash": "7cf0e4d9972751500c58e6e7cd8aa70c020d2c284b97fed7c1f4282f0be2695b"
+  },
+  {
+    "id": "art-294",
+    "article_number": "294",
+    "ocr_quality_score": 0.9571,
+    "text_hash": "26a6deb9dac4bbf62d1a154cafea25dd343f9250e282d5f6259faecbd6ffb49b"
+  },
+  {
+    "id": "art-297",
+    "article_number": "297",
+    "ocr_quality_score": 1.0,
+    "text_hash": "78eebdbbc19111d2ecfb7a0a94b7f82f323df762d0ada4e9068cbc84fd366391"
+  },
+  {
+    "id": "art-298",
+    "article_number": "298",
+    "ocr_quality_score": 0.9769,
+    "text_hash": "53bfff35f36e3bdaece3929a338ab1a7379eb019894cb412967ce7162402bb81"
+  },
+  {
+    "id": "art-306",
+    "article_number": "306",
+    "ocr_quality_score": 0.9813,
+    "text_hash": "5d737876a549108465d413a8cd2eb84457af812f92adf70203d4978db0bf6eae"
+  },
+  {
+    "id": "art-311",
+    "article_number": "311",
+    "ocr_quality_score": 0.9685,
+    "text_hash": "761e9ce6bd5c929d122f7690a77c580bd6aff1943dcc262335f357a35a0fdf2f"
+  },
+  {
+    "id": "art-317",
+    "article_number": "317",
+    "ocr_quality_score": 0.9633,
+    "text_hash": "25bbe9f9bc0792c219c781dcbccd014b9a1d8dfe6914ca286037c5d753808deb"
+  },
+  {
+    "id": "art-321",
+    "article_number": "321",
+    "ocr_quality_score": 0.9349,
+    "text_hash": "fd64d14b912d04ebdd1ac2d5f640652747c3fef08f975f39f41633cfc80a43f5"
+  },
+  {
+    "id": "art-327",
+    "article_number": "327",
+    "ocr_quality_score": 0.9767,
+    "text_hash": "2e6a2b63f8fc7af12b3d0de3b54a1738edb6502cd86da38fcd78caab027120a2"
+  },
+  {
+    "id": "art-328",
+    "article_number": "328",
+    "ocr_quality_score": 0.9849,
+    "text_hash": "7a513cd96d60f79dbfbaef0a791d29035fa16d318f002e5bfff584325609d7e5"
+  },
+  {
+    "id": "art-333",
+    "article_number": "333",
+    "ocr_quality_score": 0.9071,
+    "text_hash": "b915ad3c6ca010306311f02ab534e61c06fb8f7e5b1f9f957fa1fad8e310e029"
+  },
+  {
+    "id": "art-337",
+    "article_number": "337",
+    "ocr_quality_score": 0.9714,
+    "text_hash": "6cf96728545ed6f4865b49f52d1dff86a4cb36a4cee27a97023913d145258e1d"
+  },
+  {
+    "id": "art-338",
+    "article_number": "338",
+    "ocr_quality_score": 0.9741,
+    "text_hash": "593e60b0f4d226147b9a5ab670baec64a7780a95a6bc40ea550523c15531bfc0"
+  },
+  {
+    "id": "art-342",
+    "article_number": "342",
+    "ocr_quality_score": 0.9708,
+    "text_hash": "e6bdeac80a06f5b443acb180743b989ed1d72f75c4bbae99b3db844ee6f8dfb0"
+  },
+  {
+    "id": "art-345",
+    "article_number": "345",
+    "ocr_quality_score": 0.9774,
+    "text_hash": "8bf42b7053a104db747cf6c328b498a6b667a716649c6606b022c431861c22ff"
+  },
+  {
+    "id": "art-346",
+    "article_number": "346",
+    "ocr_quality_score": 0.9283,
+    "text_hash": "22eecb56a7cdecfc81a1244d0cda29fd5afce953b3299e649305cba2bd0c15a8"
+  },
+  {
+    "id": "art-349",
+    "article_number": "349",
+    "ocr_quality_score": 0.9821,
+    "text_hash": "4266b43ba546dfa2e09f33c49c35f4466fe647f3e5d345e6e579049b3ac8acee"
+  },
+  {
+    "id": "art-352",
+    "article_number": "352",
+    "ocr_quality_score": 0.9576,
+    "text_hash": "c5a5f5586e25708d2274eb70161d4f960b9ca31c3db58bd64f0a71c3908b89d0"
+  },
+  {
+    "id": "art-354",
+    "article_number": "354",
+    "ocr_quality_score": 0.9504,
+    "text_hash": "43eaee49c68ee707ac252019eb0e574eec322e84a81185c33d635a1b72e1961a"
+  },
+  {
+    "id": "art-358",
+    "article_number": "358",
+    "ocr_quality_score": 0.9669,
+    "text_hash": "8b8323eb3e392977db6f0d61479b9da6ac154407f2e4cec4f35e2d16d01027bc"
+  },
+  {
+    "id": "art-364",
+    "article_number": "364",
+    "ocr_quality_score": 0.965,
+    "text_hash": "e658ac2ebdfe7869d1e4cd73c90c630fa7521d9ae5e02ed2a28bd8918f0266d9"
+  },
+  {
+    "id": "art-366",
+    "article_number": "366",
+    "ocr_quality_score": 0.9635,
+    "text_hash": "f9ba4232b80181e3a6020c41d7a096e8a44478c60f8eed5a83a947916e79c2d6"
+  },
+  {
+    "id": "art-370",
+    "article_number": "370",
+    "ocr_quality_score": 0.9659,
+    "text_hash": "401505ddea5c6825f0f2aa3e271286e283489118ec99da632daa9c98fab16865"
+  },
+  {
+    "id": "art-371",
+    "article_number": "371",
+    "ocr_quality_score": 0.9241,
+    "text_hash": "dfb157678de6a338629b660328ab894335682936b202b411850368808994e221"
+  },
+  {
+    "id": "art-373",
+    "article_number": "373",
+    "ocr_quality_score": 0.9632,
+    "text_hash": "92eb606d5781718704917247aa6a953ff515313d55434451e82e5c885a888f60"
+  },
+  {
+    "id": "art-376",
+    "article_number": "376",
+    "ocr_quality_score": 0.9711,
+    "text_hash": "75ac095e5c376aed41bd7df0b1029e5fa8a7a6a611077ddbcd5635df7082e1ab"
+  },
+  {
+    "id": "art-379",
+    "article_number": "379",
+    "ocr_quality_score": 0.9432,
+    "text_hash": "194d79b53910508dadf963737c74871b0c2dde2c82a343af022a143b772fa2f7"
+  },
+  {
+    "id": "art-380",
+    "article_number": "380",
+    "ocr_quality_score": 0.9481,
+    "text_hash": "9098e68eb44d4d7a5573ba8ec604bb2bd51afa376391b8d87262ad3f61353343"
+  },
+  {
+    "id": "art-382-bis",
+    "article_number": "382 bis",
+    "ocr_quality_score": 0.9474,
+    "text_hash": "821462af091d41f33744fbfd6f17afaeb421a1f00caf68e043f17e1c0b1ebe65"
+  },
+  {
+    "id": "art-389-bis",
+    "article_number": "389 bis",
+    "ocr_quality_score": 0.9602,
+    "text_hash": "3b39b3e79279025f29dcb175d526db36a55c8a41427ad6a2e505448d3321b456"
+  },
+  {
+    "id": "art-389",
+    "article_number": "389",
+    "ocr_quality_score": 0.9391,
+    "text_hash": "4c7b8c63e5ed60e58c7a63b04d4682f0de87df1efef70723b3459093c49a9004"
+  },
+  {
+    "id": "art-389",
+    "article_number": "389",
+    "ocr_quality_score": 0.9323,
+    "text_hash": "156d7d98793afb8ab9b71ecf332a418ec664e583b1398dd5b2894f821240caa1"
+  },
+  {
+    "id": "art-389",
+    "article_number": "389",
+    "ocr_quality_score": 0.9704,
+    "text_hash": "6fafd259b255e830ab082b0582330c95531f29cc7d5dc2018dce97f282201c64"
+  },
+  {
+    "id": "art-394-ter",
+    "article_number": "394 ter",
+    "ocr_quality_score": 0.9465,
+    "text_hash": "4a3dd5f87e723e96c14fd3c3a2154a037f69d768cc22a9bf38857809f02d60fb"
+  },
+  {
+    "id": "art-394",
+    "article_number": "394",
+    "ocr_quality_score": 0.9667,
+    "text_hash": "b16e6c94c1973fbe0a82d3e1fb2498268dbf746d111479afc84d4bd407982a5c"
+  },
+  {
+    "id": "art-401",
+    "article_number": "401",
+    "ocr_quality_score": 0.9885,
+    "text_hash": "7697953035f1d368f11876e4eeb86f2b53bdf5c04e24a9de337a84d5bbce8b0c"
+  },
+  {
+    "id": "art-405-bis",
+    "article_number": "405 bis",
+    "ocr_quality_score": 0.9558,
+    "text_hash": "ff6a9203a7f02cd92a1901edf0061f29350819e35e702f3021bdd43fdfed926e"
+  },
+  {
+    "id": "art-409",
+    "article_number": "409",
+    "ocr_quality_score": 0.9347,
+    "text_hash": "f6c784bc4f19060cc6abed67f418ccf8545c336d7475303a4783e5334046037b"
+  },
+  {
+    "id": "art-415",
+    "article_number": "415",
+    "ocr_quality_score": 0.9737,
+    "text_hash": "ee96aa652d5f5dc2da2405b80bc37a3f5d4273e98d6a2d7845add1c1a07438ac"
+  },
+  {
+    "id": "art-430",
+    "article_number": "430",
+    "ocr_quality_score": 0.9488,
+    "text_hash": "3418b074b2455d00f7b7741b4430feada8b4f28568d01397fdfa842ce4ed7adb"
+  },
+  {
+    "id": "art-432",
+    "article_number": "432",
+    "ocr_quality_score": 0.9643,
+    "text_hash": "46de552abe3084ca1675284512a63571ade9a48ede8ad9e0ebb89c01631ffb7a"
+  },
+  {
+    "id": "art-440-bis",
+    "article_number": "440 bis",
+    "ocr_quality_score": 0.9628,
+    "text_hash": "7f775f994d75ad5f88e40dcd5541f11571aa8a66abe40c9df6370d525171f2be"
+  },
+  {
+    "id": "art-442",
+    "article_number": "442",
+    "ocr_quality_score": 0.9563,
+    "text_hash": "2c23571769c3682ce36bd253fa656e51a01e812a9ffbf1a42d8083a582f2977c"
+  },
+  {
+    "id": "art-443",
+    "article_number": "443",
+    "ocr_quality_score": 0.93,
+    "text_hash": "ae04cf496bc5d7e210f0bb0090225580cf779d421c1e0ec0bafc7171c87d1632"
+  },
+  {
+    "id": "art-444-bis",
+    "article_number": "444 bis",
+    "ocr_quality_score": 0.916,
+    "text_hash": "bbcf7e63e32ac9cdceecf87f1695fde50cc7bde80480bb0f769bb872532ff3c5"
+  },
+  {
+    "id": "art-446",
+    "article_number": "446",
+    "ocr_quality_score": 0.9125,
+    "text_hash": "8d559551e89741978e7e0a5b0c89dc8a16a209239126c384eb80a1cbd576d764"
+  },
+  {
+    "id": "art-450",
+    "article_number": "450",
+    "ocr_quality_score": 0.975,
+    "text_hash": "1190ce00cbe98a4bed74de5479a2ea9d25d3e3e900ca1c270a644e73fcd2a5ea"
+  },
+  {
+    "id": "art-451",
+    "article_number": "451",
+    "ocr_quality_score": 0.9671,
+    "text_hash": "f9f328968888a37f84657145413cc83400d2e4bc63880cf0cf36bc17b7e72d08"
+  },
+  {
+    "id": "art-455",
+    "article_number": "455",
+    "ocr_quality_score": 0.9774,
+    "text_hash": "03794c3f5aa87d65880f42446691910ac362ddb04d6f192a8bf4e3dd0e21e085"
+  },
+  {
+    "id": "art-464",
+    "article_number": "464",
+    "ocr_quality_score": 0.9454,
+    "text_hash": "2365774498d87410ac62cbbc4ffe42ee2945f847ecc1ebc3b7ca1551ed224db6"
+  },
+  {
+    "id": "art-466",
+    "article_number": "466",
+    "ocr_quality_score": 1.0,
+    "text_hash": "d7ffc6832b959145ccef8c456a9b73a8020169ba7f74faf020dcf8e944c66b5c"
+  },
+  {
+    "id": "art-1",
+    "article_number": "1",
+    "ocr_quality_score": 0.9263,
+    "text_hash": "9fb59fe031e60fe8dc16e9d838bd9facf8c6ccdc3b888b58a98ec4d218116667"
+  },
+  {
+    "id": "art-2",
+    "article_number": "2",
+    "ocr_quality_score": 0.9913,
+    "text_hash": "fc38b8c1f7fed1b6dc1908e1fdfe3d638cb6db5e89c3131a10c5b7f1740039a6"
+  },
+  {
+    "id": "art-5",
+    "article_number": "5",
+    "ocr_quality_score": 0.97,
+    "text_hash": "5b664dc9d99551772790a3e1ddecbaa2ccf7b66a8845ba2e8a8fb88384633b74"
+  },
+  {
+    "id": "art-5",
+    "article_number": "5",
+    "ocr_quality_score": 0.944,
+    "text_hash": "921b10789c7257c39cfebc6819c5df59d794ae6cd35eeebcf0972f3d78ca26f6"
+  },
+  {
+    "id": "art-12",
+    "article_number": "12",
+    "ocr_quality_score": 0.9546,
+    "text_hash": "bfbe028108683f4ae8cd054ed059003fc2a625a30c0aecb69804fe7466cd2c57"
+  }
+]

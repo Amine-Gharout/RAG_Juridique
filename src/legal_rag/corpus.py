@@ -15,7 +15,10 @@ def load_jsonl(path: Path) -> list[ArticleRecord]:
             if not line:
                 continue
             rows.append(json.loads(line))
-    return rows
+
+    # Shrink to the first 80% of lines as requested
+    limit = int(len(rows) * 0.8)
+    return rows[:limit]
 
 
 def load_tiered_corpus(settings: Settings) -> dict[str, list[ArticleRecord]]:

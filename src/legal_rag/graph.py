@@ -7,7 +7,7 @@ import re
 from .config import Settings, load_settings
 from .corpus import load_tiered_corpus
 from .embedding_service import VoyageEmbeddingService
-from .llm import GroqLegalAssistant
+from .llm import get_llm_assistant, LegalAssistantInterface
 from .models import Candidate, LegalRAGState
 from .retrieval import (
     extract_article_reference,
@@ -28,7 +28,7 @@ _CITATION_RE = re.compile(
 class Runtime:
     settings: Settings
     corpus_by_tier: dict[str, list[dict[str, object]]]
-    assistant: GroqLegalAssistant
+    assistant: LegalAssistantInterface
     vector_store: LegalVectorStore | None
     embedding_service: VoyageEmbeddingService | None
     startup_warnings: list[str]
@@ -364,7 +364,7 @@ class LegalRAGApp:
         self.runtime = Runtime(
             settings=resolved_settings,
             corpus_by_tier=corpus_by_tier,
-            assistant=GroqLegalAssistant(resolved_settings),
+            assistant=get_llm_assistant(resolved_settings),
             vector_store=vector_store,
             embedding_service=embedding_service,
             startup_warnings=startup_warnings,

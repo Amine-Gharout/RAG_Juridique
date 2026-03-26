@@ -1,4 +1,5 @@
 from __future__ import annotations
+from .config import load_settings
 
 import argparse
 
@@ -18,6 +19,12 @@ def _build_parser() -> argparse.ArgumentParser:
         "--show-debug",
         action="store_true",
         help="Show routing metadata and warnings.",
+    )
+    parser.add_argument(
+        "--provider",
+        type=str,
+        choices=["groq", "gemini"],
+        help="Choose the LLM provider (groq or gemini). Overrides LEGAL_RAG_LLM_PROVIDER.",
     )
     return parser
 
@@ -41,7 +48,13 @@ def main() -> None:
     parser = _build_parser()
     args = parser.parse_args()
 
-    app = LegalRAGApp()
+    settings = load_settings()
+    if args.provider:
+        # Override the defaults with the user's choice
+        import dataclasses
+        settings = dataclasses.replace(settings, llm_provider=args.provider)
+
+    app = LegalRAGApp(settings=settings)
 
     if args.query:
         result = app.ask(

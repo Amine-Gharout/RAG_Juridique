@@ -42,8 +42,11 @@ class Settings:
     tier_a_path: Path
     tier_b_path: Path
     tier_c_path: Path
+    llm_provider: str
     groq_api_key: str | None
     groq_model: str
+    gemini_api_key: str | None
+    gemini_model: str
     temperature: float
     retrieval: RetrievalConfig
     embedding: EmbeddingConfig
@@ -85,13 +88,16 @@ def load_settings(project_root: Path | None = None) -> Settings:
             "LEGAL_RAG_TIER_C",
             output_dir / "16-FR-only.articles.quarantine_C.jsonl",
         ),
+        llm_provider=os.getenv("LEGAL_RAG_LLM_PROVIDER", "groq").lower(),
         groq_api_key=os.getenv("GROQ_API_KEY"),
         groq_model=os.getenv("LEGAL_RAG_GROQ_MODEL",
                              "llama-3.3-70b-versatile"),
+        gemini_api_key=os.getenv("GEMINI_API_KEY"),
+        gemini_model=os.getenv("LEGAL_RAG_GEMINI_MODEL", "gemini-2.5-flash"),
         temperature=float(os.getenv("LEGAL_RAG_TEMPERATURE", "0.2")),
         retrieval=RetrievalConfig(
-            top_k_per_tier=int(os.getenv("LEGAL_RAG_TOP_K_PER_TIER", "8")),
-            final_context_k=int(os.getenv("LEGAL_RAG_FINAL_CONTEXT_K", "6")),
+            top_k_per_tier=int(os.getenv("LEGAL_RAG_TOP_K_PER_TIER", "15")),
+            final_context_k=int(os.getenv("LEGAL_RAG_FINAL_CONTEXT_K", "12")),
             min_score_to_keep=float(
                 os.getenv("LEGAL_RAG_MIN_SCORE_TO_KEEP", "0.08")),
             min_docs_for_confident_answer=int(
@@ -115,6 +121,6 @@ def load_settings(project_root: Path | None = None) -> Settings:
             auto_build_index=_bool_from_env(
                 "LEGAL_RAG_AUTO_BUILD_INDEX", False),
             metric=os.getenv("LEGAL_RAG_FAISS_METRIC", "ip"),
-            batch_size=int(os.getenv("LEGAL_RAG_EMBED_BATCH_SIZE", "16")),
+            batch_size=int(os.getenv("LEGAL_RAG_EMBED_BATCH_SIZE", "40")),
         ),
     )

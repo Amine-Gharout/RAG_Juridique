@@ -156,7 +156,8 @@ venv.bak/
 /site
 
 # Local vector indices generated for RAG
-out/embeddings/
+# WE ALLOW EMBEDDINGS TO BE PUSHED:
+# out/embeddings/
 
 # mypy
 .mypy_cache/

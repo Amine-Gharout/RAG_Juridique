@@ -1,0 +1,17 @@
+{
+  "provider": "voyageai",
+  "model": "voyage-4-large",
+  "dimension": 1024,
+  "metric": "ip",
+  "created_at": "2026-03-26T12:56:25.665224+00:00",
+  "tier_counts": {
+    "A": 570,
+    "B": 13,
+    "C": 16
+  },
+  "tier_fingerprints": {
+    "A": "7dcf542a318e41c752949f26c95036276380f7558e1a7f606bce1c9b2cf54a7e",
+    "B": "2bd4397f469874de5d50dd020e04b5fe7206b73c5756bf1326773711f14b7dcb",
+    "C": "868f718a6d3997ccace0e5631f7231887874ea241434738214c350e31002a758"
+  }
+}

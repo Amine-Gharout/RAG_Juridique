@@ -1,0 +1,80 @@
+[
+  {
+    "id": "art-5",
+    "article_number": "5",
+    "ocr_quality_score": 0.9469,
+    "text_hash": "9693dca2002e7221c1d421af2ec96565a422e5a8d16b7df356e8603f4b5b63ac"
+  },
+  {
+    "id": "art-38",
+    "article_number": "38",
+    "ocr_quality_score": 0.9504,
+    "text_hash": "4277e6afa0c8d0c230cd9284d499c00e5df72e017af4c64b1b9d2646c30e6c68"
+  },
+  {
+    "id": "art-48",
+    "article_number": "48",
+    "ocr_quality_score": 0.874,
+    "text_hash": "f3ba32d2c33d62a3e78900607651aceea71d8330bbfc90b3bd6e395917ab98e6"
+  },
+  {
+    "id": "art-60",
+    "article_number": "60",
+    "ocr_quality_score": 0.9494,
+    "text_hash": "c3290dbe20481d4c1b292d3d0f17fa47da2083ce067976be640ac1e8dc754bf1"
+  },
+  {
+    "id": "art-96",
+    "article_number": "96",
+    "ocr_quality_score": 0.9458,
+    "text_hash": "9981395bb9f125dc09ce0c489c1404dc184c435d7853f9565d3a1f7f47168c19"
+  },
+  {
+    "id": "art-191",
+    "article_number": "191",
+    "ocr_quality_score": 0.9146,
+    "text_hash": "9d9e2520e181a6cb5c968525b7177b8270e21a30f4b2976e7dd752909322023d"
+  },
+  {
+    "id": "art-267",
+    "article_number": "267",
+    "ocr_quality_score": 0.7659,
+    "text_hash": "b8b35b0519435c2724776915ba749c79bb1f732b4f2dfd07348c3ce85d21c250"
+  },
+  {
+    "id": "art-441-bis",
+    "article_number": "441 bis",
+    "ocr_quality_score": 0.8737,
+    "text_hash": "d91d84f2f3546d2bd635e762d68c924a3590602f68af9d588aaab0a996eddebc"
+  },
+  {
+    "id": "art-6",
+    "article_number": "6",
+    "ocr_quality_score": 0.7383,
+    "text_hash": "889e8f304651717b3cdf82e8fe3f3dc9b8cd9a2022a6ee5ed5faeda4cd70ddbf"
+  },
+  {
+    "id": "art-344",
+    "article_number": "344",
+    "ocr_quality_score": 0.8542,
+    "text_hash": "0757ad6b92f59e7fcc42e9c07ee54dba58002b734d93145c074e6baae79571e2"
+  },
+  {
+    "id": "art-394",
+    "article_number": "394",
+    "ocr_quality_score": 0.7325,
+    "text_hash": "2c2dc082628b2f8b96271ad24c6f99ef808eb8ccc6f634b11f6a11a2569e597d"
+  },
+  {
+    "id": "art-13",
+    "article_number": "13",
+    "ocr_quality_score": 0.9868,
+    "text_hash": "f00d56b324b287b01319c652f7ea941af92333da65bfb50e08a06cd706d6b267"
+  },
+  {
+    "id": "art-18-bis-3",
+    "article_number": "18 bis 3",
+    "ocr_quality_score": 0.9582,
+    "text_hash": "fa0b2b4378d51a30dc9fb0cec6849268abcdfb8c56c7a309a4285c1594defc79"
+  }
+]

@@ -45,9 +45,9 @@ python3 scripts/prepare_legal_corpus.py \
 - Suspicious fragments are tracked, not silently discarded.
 - Retrieval policy recommendation: query tier A first, tier B on fallback, and tier C only in explicit low-confidence mode.
 
-## MVP Legal RAG (LangGraph + Groq)
+## MVP Legal RAG (LangGraph + Groq/Gemini)
 
-This repository now includes a first MVP of a confidence-aware legal chat RAG pipeline.
+This repository now includes a first MVP of a confidence-aware legal chat RAG pipeline, capable of using either Groq (Llama) or Google Gemini as the core reasoning engine.
 
 ### Implemented MVP Components
 
@@ -89,9 +89,10 @@ python3 -m pip install -r requirements-rag.txt
 ### Configure Environment
 
 1. Copy `.env.example` to `.env`.
-2. Set `GROQ_API_KEY`.
-3. Set `VOYAGE_API_KEY`.
-4. Optionally adjust model, dimension, and index path variables.
+2. Set your preferred LLM provider via `LEGAL_RAG_LLM_PROVIDER`: `groq` or `gemini`.
+3. Set your chosen valid LLM API key (`GROQ_API_KEY` or `GEMINI_API_KEY`).
+4. Set `VOYAGE_API_KEY` for embeddings.
+5. Optionally override default retrieval capacities (`LEGAL_RAG_TOP_K_PER_TIER` to fetch more documents, etc).
 
 ### Build Vector Index (One-Time or On Corpus Update)
 
@@ -116,12 +117,11 @@ Index output default:
 ### Run (Single Query)
 
 ```bash
+# You can optionally specify --provider to switch LLMs on the fly
 python3 scripts/run_legal_rag.py \
-	--query "What does Art. 1 say?" \
-	--show-debug
-```
-
-### Run (Interactive Chat)
+        --query "What does Art. 1 say?" \
+        --show-debug \
+        --provider gemini
 
 ```bash
 python3 scripts/run_legal_rag.py --show-debug
