@@ -115,6 +115,6 @@ def load_settings(project_root: Path | None = None) -> Settings:
             auto_build_index=_bool_from_env(
                 "LEGAL_RAG_AUTO_BUILD_INDEX", False),
             metric=os.getenv("LEGAL_RAG_FAISS_METRIC", "ip"),
-            batch_size=int(os.getenv("LEGAL_RAG_EMBED_BATCH_SIZE", "64")),
+            batch_size=int(os.getenv("LEGAL_RAG_EMBED_BATCH_SIZE", "16")),
         ),
     )

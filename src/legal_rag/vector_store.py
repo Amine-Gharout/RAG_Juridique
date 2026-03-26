@@ -158,6 +158,7 @@ class LegalVectorStore:
         for tier in TIERS:
             rows = corpus_by_tier[tier]
             texts = [str(row.get("text", "")) for row in rows]
+            print(f"Embedding tier '{tier}' ({len(texts)} documents)...")
             vectors = embedding_service.embed_documents(texts)
 
             if vectors.shape[0] != len(rows):

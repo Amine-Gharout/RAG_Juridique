@@ -48,8 +48,11 @@ def main() -> None:
     vector_store = LegalVectorStore(settings)
 
     if args.force and settings.embedding.index_dir.exists():
+        print(
+            f"Force building: Removing existing index directory {settings.embedding.index_dir}")
         shutil.rmtree(settings.embedding.index_dir)
 
+    print("Starting vector building process. This may take a few minutes as data is sent to VoyageAI API...")
     embedding_service = VoyageEmbeddingService(settings.embedding)
     output_dir = vector_store.build_and_save(
         corpus_by_tier=corpus_by_tier,

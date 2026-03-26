@@ -44,7 +44,7 @@ class VoyageEmbeddingService:
         client,
         texts: list[str],
         input_type: InputType,
-        max_retries: int = 3,
+        max_retries: int = 15,
     ):
         np = _numpy_module()
         last_error: Exception | None = None
@@ -62,7 +62,13 @@ class VoyageEmbeddingService:
             except Exception as exc:
                 last_error = exc
                 if attempt < max_retries - 1:
-                    time.sleep(0.75 * (2**attempt))
+                    delay = 0.75 * (2**attempt)
+                    exc_msg = str(exc)
+                    if type(exc).__name__ == "RateLimitError" or "RateLimitError" in exc_msg or "429" in exc_msg:
+                        print(
+                            f"      [RateLimitError] Sleeping {22}s to respect free tier limits...")
+                        delay = max(delay, 22.0)
+                    time.sleep(delay)
 
         raise RuntimeError(
             f"Voyage embedding failed after retries for input_type={input_type}."
@@ -77,8 +83,12 @@ class VoyageEmbeddingService:
         all_vectors: list[object] = []
 
         batch_size = max(1, self.cfg.batch_size)
+        total_batches = (len(texts) + batch_size - 1) // batch_size
         for start in range(0, len(texts), batch_size):
             batch = texts[start: start + batch_size]
+            current_batch = (start // batch_size) + 1
+            print(
+                f"  -> Sending batch {current_batch}/{total_batches} ({len(batch)} items) to VoyageAI...")
             vectors = self._embed_batch(
                 client=client, texts=batch, input_type="document")
             all_vectors.append(vectors)
